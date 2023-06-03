@@ -1,0 +1,48 @@
+<nav class="navbar position-fixed custom navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <div class="logo">
+      <span class="material-symbols-outlined">
+        menu_book
+        </span>
+      <h1>VEGYEN FEL</h1>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul>
+        <li [ngClass]="{ 'active': isRouteActive('home') }"><a [routerLink]="'home'">Home</a></li>
+        <li  [ngClass]="{ 'active': isRouteActive('contact') }"><a  [routerLink]="'contact'">Contact</a></li>
+        <li [ngClass]="{ 'activez': isStudentRouteActive() }"  class="nav-item dropdown">
+          <a id="students" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">Students</a>
+          <ul class="dropdown-menu bg-dark">
+            <li> <a [routerLink]="'students/law'" class="dropdown-item">Law</a></li>
+            <li> <a [routerLink]="'students/medical-sciences'" class="dropdown-item">Medical Sciences</a></li>
+            <li> <a class="dropdown-item">Humanities</a></li>
+            <li> <a class="dropdown-item">Economics and Business</a></li>
+            <li> <a class="dropdown-item">Child and Special Needs Education</a></li>
+            <li> <a class="dropdown-item">Informatics</a></li>
+            <li> <a class="dropdown-item">Food Sciences</a></li>
+            <li> <a class="dropdown-item">Architecture</a></li>
+            <li> <a class="dropdown-item">Environmental Engineering</a></li>
+            <li> <a class="dropdown-item">Mechanical Engineering</a></li>
+            <li> <a class="dropdown-item">Mechatronics Engineering</a></li>
+            <li> <a class="dropdown-item">Mechanical Engineering</a></li>
+            <li> <a class="dropdown-item">Biology and Biochemical Engineering</a></li>
+            <li> <a class="dropdown-item">Chemistry and Chemitry Engineering</a></li>
+            <li> <a class="dropdown-item">Professional Pilot</a></li>
+            <li> <a class="dropdown-item">Technical Manager</a></li>
+            <li> <a class="dropdown-item">Agriculture</a></li>
+            <li> <a class="dropdown-item">Mathematics</a></li>
+            <li> <a class="dropdown-item">Earth sciences</a></li>
+            <li> <a class="dropdown-item">Physics</a></li>
+          </ul>
+        </li>
+        <li  [ngClass]="{ 'active': isRouteActive('job-positions') }"><a [routerLink]="'job-positions'">Job postings</a></li>
+        <li><a class="job-button" [routerLink]="'make-job-post'">Make job post</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
