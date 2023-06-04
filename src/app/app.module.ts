@@ -17,6 +17,16 @@ import { HomeComponent } from './pages/home/home.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+
+
+
+
+export function HttpLoaderFactory(httpClient: HttpClient) {
+  return new TranslateHttpLoader(httpClient);
+}
 
 @NgModule({
   declarations: [
@@ -29,7 +39,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MakeJobPostComponent,
     HomeComponent,
     ErrorPageComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -40,6 +50,15 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatButtonModule,
     MatMenuModule,
     ReactiveFormsModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
+    
     
   ],
   providers: [],

@@ -15,6 +15,9 @@
 background: url(../../../assets/overlay-bottom.png);
 }
 
+.font {
+    font-family: 'Space Grotesk', sans-serif;
+}
 
 .hero-wrapper {
  display: flex;
@@ -101,7 +104,25 @@ transition: border-color .3s, transform .3s, background-color .3s, color .3s;
 background-color: #fff;
 border-color: #fff;
 }
+.help-wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
 
+#icon {
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 100%;
+    border: 2px solid black;
+    color: #7d42fb;
+    font-size: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 /* LANDING SECTION */
 
@@ -116,6 +137,7 @@ border-color: #fff;
     flex-direction: column;
     align-items: center;
 }
+
 .landing-wrapper > header > h1 {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
@@ -127,6 +149,7 @@ border-color: #fff;
     display: flex;
  flex-wrap: wrap;
     gap: 2rem;
+    justify-content: center;
 }
 .landing-main > div  {
     max-width: 35rem;
@@ -145,6 +168,8 @@ border-color: #fff;
         max-width: 30rem;
         font-weight: 700;
         color: #292929;;
+        padding-bottom: 1rem;
+   
 }
 .primary-btn-2 {
     color: #fff;
@@ -168,5 +193,51 @@ transition: border-color .3s, background-color .3s, transform .3s, color .3s;
 background-color: #7d42fb;
 border-color: #7d42fb;
 transform: translate3d(0, -3px, .01px);
+}
+
+/* FAQ SECTION */
+.faq-section > div > header {
+    font-size: 3rem;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-bottom: 4rem;
+    padding: 0rem 3rem 0 3rem;
+}
+.faq-section {
+    padding: 10rem 0 20rem 0;
+    position: relative;
+    background-color: #292929;
+   
+}
+
+.custom > h1, .borderz {
+    font-family: 'Space Grotesk', sans-serif;
+}
+.faq-section::after {
+    position: absolute; /*IMPORTANT!*/
+    background-color: transparent;
+    content: "";
+    width: 100%;
+    height: 10px;
+    left: 0;
+    z-index: 1;
+    top: 0rem;
+    transform: rotateX(180deg);
+background: url(../../../assets/overlay-bottom.png);
+}
+.borderz {
+    border-bottom: #535353 1px solid;
+}
+
+.faq-individual {
+    padding: 0rem 3rem 0 3rem;
+    margin-bottom: 3rem;
+    
+}
+.font > a {
+    color: #7f6aff;
+}
+.border-radius {
+    border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
 }
 

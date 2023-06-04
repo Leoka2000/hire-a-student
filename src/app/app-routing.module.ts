@@ -9,6 +9,7 @@ import { MedicalSciencesComponent } from './pages/students/medical-sciences/medi
 import { HomeComponent } from './pages/home/home.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 
+
 const routes: Routes = [
   {path:'home', component: HomeComponent},
   {path:'contact', component: ContactComponent},

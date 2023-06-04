@@ -11,10 +11,11 @@
 #silhouette-c {
     
     position: absolute;
- right: -20rem;
- bottom: -20rem;
+ right: 0rem;
+ bottom: -17rem;
  z-index: -2;
  overflow: hidden;
+ width: 20rem;
 
 }
 #silhouette-c1 {

@@ -30,6 +30,17 @@
         </svg></span>
 </section>
 
+<!-- SECTION BREAK -->
+<div>
+    <h2>{{ 'HOME.TITLE' | translate }}</h2>
+    <label>
+      {{ 'HOME.SELECT' | translate }}
+      <select #langSelect (change)="translate.use(langSelect.value)">
+        <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+      </select>
+    </label>
+  </div>
+  
 <section class="landing-section">
     <div class="landing-wrapper">
         <header>
@@ -42,60 +53,154 @@
         <main class="landing-main">
             <div>
                 <span><svg width="140" height="140" viewBox="0 0 140 140" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_4014_33508)">
-                        <circle cx="70" cy="70" r="69" fill="white" stroke="#0C0C0C" stroke-width="2" />
-                        <rect x="42.7419" y="40.4346" width="57.9224" height="57.9224" stroke="#7F6AFF" />
-                        <path
-                            d="M94.4146 62.5949C103.778 62.5949 111.369 55.004 111.369 45.6402C111.369 36.2764 103.778 28.6855 94.4146 28.6855C85.0508 28.6855 77.46 36.2764 77.46 45.6402C77.46 55.004 85.0508 62.5949 94.4146 62.5949Z"
-                            fill="#0C0C0C" />
-                        <path
-                            d="M70 82.9412C72.233 78.3681 75.7056 74.514 80.0221 71.8181C84.3386 69.1222 89.3255 67.6929 94.4147 67.6929C99.5039 67.6929 104.491 69.1222 108.807 71.8181C113.124 74.514 116.596 78.3681 118.829 82.9412"
-                            fill="#0C0C0C" />
-                        <path
-                            d="M45.5853 84.3258C54.9491 84.3258 62.54 76.735 62.54 67.3712C62.54 58.0074 54.9491 50.4165 45.5853 50.4165C36.2215 50.4165 28.6306 58.0074 28.6306 67.3712C28.6306 76.735 36.2215 84.3258 45.5853 84.3258Z"
-                            fill="#7F6AFF" stroke="#7F6AFF" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path
-                            d="M21.1707 104.672C23.4037 100.099 26.8762 96.245 31.1928 93.5491C35.5093 90.8532 40.4962 89.4238 45.5854 89.4238C50.6746 89.4238 55.6615 90.8532 59.978 93.5491C64.2945 96.245 67.7671 100.099 70.0001 104.672"
-                            fill="#7F6AFF" stroke="#7F6AFF" stroke-width="2" stroke-linecap="square"
-                            stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_4014_33508">
-                            <rect width="140" height="140" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-            </span>
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_4014_33508)">
+                            <circle cx="70" cy="70" r="69" fill="white" stroke="#0C0C0C" stroke-width="2" />
+                            <rect x="42.7419" y="40.4346" width="57.9224" height="57.9224" stroke="#7F6AFF" />
+                            <path
+                                d="M94.4146 62.5949C103.778 62.5949 111.369 55.004 111.369 45.6402C111.369 36.2764 103.778 28.6855 94.4146 28.6855C85.0508 28.6855 77.46 36.2764 77.46 45.6402C77.46 55.004 85.0508 62.5949 94.4146 62.5949Z"
+                                fill="#0C0C0C" />
+                            <path
+                                d="M70 82.9412C72.233 78.3681 75.7056 74.514 80.0221 71.8181C84.3386 69.1222 89.3255 67.6929 94.4147 67.6929C99.5039 67.6929 104.491 69.1222 108.807 71.8181C113.124 74.514 116.596 78.3681 118.829 82.9412"
+                                fill="#0C0C0C" />
+                            <path
+                                d="M45.5853 84.3258C54.9491 84.3258 62.54 76.735 62.54 67.3712C62.54 58.0074 54.9491 50.4165 45.5853 50.4165C36.2215 50.4165 28.6306 58.0074 28.6306 67.3712C28.6306 76.735 36.2215 84.3258 45.5853 84.3258Z"
+                                fill="#7F6AFF" stroke="#7F6AFF" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M21.1707 104.672C23.4037 100.099 26.8762 96.245 31.1928 93.5491C35.5093 90.8532 40.4962 89.4238 45.5854 89.4238C50.6746 89.4238 55.6615 90.8532 59.978 93.5491C64.2945 96.245 67.7671 100.099 70.0001 104.672"
+                                fill="#7F6AFF" stroke="#7F6AFF" stroke-width="2" stroke-linecap="square"
+                                stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_4014_33508">
+                                <rect width="140" height="140" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </span>
                 <div>
-                    <h1>ARE YOU A COMPANY OR AN INDIVIDUAL AND NEED SOMEONE TO HIRE FOR AN INTERNSHIP OR JOB?</h1>
+                    <h1> Are you a company or an individual and need someone to hire for an internship or job?</h1>
                 </div>
                 <a class="primary-btn-2">Subscribe as a student</a>
             </div>
             <div>
                 <span><svg width="140" height="140" viewBox="0 0 140 140" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_4014_33527)">
-                        <circle cx="70" cy="70" r="69" fill="white" stroke="#0C0C0C" stroke-width="2" />
-                        <circle cx="70.0001" cy="60.7476" r="31.8537" stroke="#7F6AFF" stroke-width="1.49398" />
-                        <rect x="61.9763" y="96.5801" width="16.0478" height="15.2729" fill="#0C0C0C" />
-                        <circle cx="70.0001" cy="60.7479" r="26.6474" fill="#7F6AFF" stroke="white"
-                            stroke-width="1.55545" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_4014_33527">
-                            <rect width="140" height="140" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-            </span>
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_4014_33527)">
+                            <circle cx="70" cy="70" r="69" fill="white" stroke="#0C0C0C" stroke-width="2" />
+                            <circle cx="70.0001" cy="60.7476" r="31.8537" stroke="#7F6AFF" stroke-width="1.49398" />
+                            <rect x="61.9763" y="96.5801" width="16.0478" height="15.2729" fill="#0C0C0C" />
+                            <circle cx="70.0001" cy="60.7479" r="26.6474" fill="#7F6AFF" stroke="white"
+                                stroke-width="1.55545" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_4014_33527">
+                                <rect width="140" height="140" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </span>
                 <div>
-                    <h1>ARE YOU LOOKING FOR A JOB OR AN INTERNSHIP?</h1>
+                    <h1>Are you looking for a job or an internship?</h1>
                     <br>
                 </div>
-                  <a class="primary-btn-2">Subscribe as a student</a>
+                <a class="primary-btn-2">Make job post</a>
+            </div>
+            <div>
+                <div class="help-wrapper">
+                    <span id="help-icon"><mat-icon id="icon">help_outline</mat-icon></span>
+                </div>
+                <div>
+                    <h1>Do you have any questions? Check out the frequently asked questions of the website!</h1>
+                    <br>
+                </div>
+                <a (click)="scrollTo('faq')" class="primary-btn-2">See more</a>
             </div>
         </main>
     </div>
+</section>
+
+<!-- SECTION BREAK -->
+
+<section id='faq' class="faq-section">
+    <div>
+        <header>Frequently asked questions</header>
+        <div class="faq-individual">
+            <nav class="navbar navbar-dark borderz">
+                <div class="container-fluid custom">
+                    <h1>How much does it cost to post a job position advertisement?</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown1"
+                        aria-controls="dropdown1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+            <div class="collapse bg-dark" id="dropdown1">
+                <div class="bg-dark p-3 border-radius borderz">
+                    <h4 class="font text-white h4">It costs R$29.90 to post a vacancy on the HIRING A UFRGS STUDENT
+                        platform
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-individual">
+            <nav class="navbar navbar-dark borderz">
+                <div class="container-fluid custom">
+                    <h1>Does the university students have to pay in order to subscribe?</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown2"
+                        aria-controls="dropdown2" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+            <div class="collapse bg-dark" id="dropdown2">
+                <div class="bg-dark p-3 border-radius borderz">
+                    <h4 class="font text-white h4">No. The platform is free for undergraduate students. Create your
+                        account
+                        by <a target="_blank" href="#"> clicking here.</a></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-individual">
+            <nav class="navbar navbar-dark borderz">
+                <div class="container-fluid custom">
+                    <h1>I have found an job position. How do I contact the company?</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown3"
+                        aria-controls="dropdown3" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+            <div class="collapse bg-dark" id="dropdown3">
+                <div class="bg-dark p-3 border-radius borderz">
+                    <h4 class="font text-white h4">Yes, as long as you are regularly enrolled at any Hungarian
+                        university.
+                        This applies to undergraduate and graduate students. To register <a>click here.</a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="faq-individual">
+            <nav class="navbar navbar-dark borderz">
+                <div class="container-fluid custom">
+                    <h1>I have found an opening. How do I contact the company?</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown4"
+                        aria-controls="dropdown4" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+            <div class="collapse bg-dark" id="dropdown4">
+                <div class="bg-dark p-3 border-radius borderz">
+                    <h4 class="font text-white h4">In the <a [routerLink]="'/job-positions'">"vacancies"</a> tab there
+                        is an
+                        announcement for each job offer. Just send an e-mail to the enterprise who is offering this
+                        position.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
