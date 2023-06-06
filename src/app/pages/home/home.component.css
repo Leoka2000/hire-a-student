@@ -1,5 +1,5 @@
 .hero-section {
- padding: 12rem 0 11rem 0;
+ padding: 14rem 0 12rem 0;
     position: relative;
 }
 .hero-section::after {
@@ -109,12 +109,34 @@ border-color: #fff;
     justify-content: center;
     
 }
-
+.arrow {
+    padding: 2.8rem;
+    border: 1px solid white;
+    border-radius: 100%;
+    transition: 0.2s;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    position: absolute;
+    bottom: -4.0rem;
+    left: 40rem;
+    backdrop-filter: blur(5px);
+    z-index: 5;
+}
+.arrow:hover {
+background-color: #7f6aff;
+   border: 1px solid #7f6aff;
+}
 #icon {
     height: 7.5rem;
     width: 7.5rem;
     border-radius: 100%;
-    border: 2px solid black;
+    border: 2px solid rgb(41, 41, 41);
     color: #7d42fb;
     font-size: 4rem;
     background-color: white;
@@ -129,7 +151,7 @@ border-color: #fff;
 
 .landing-section {
     background-color: rgb(243, 243, 243);
-    padding: 6rem 3rem 10rem 6rem;
+    padding: 15rem 3rem 4rem 6rem;
     z-index: 3;
     color: black;
     font-family: 'Space Grotesk', sans-serif;
@@ -153,7 +175,7 @@ border-color: #fff;
 }
 .landing-main > div  {
     max-width: 35rem;
-    border: 2px solid #191919;
+    border: 1px solid rgb(63, 63, 63);
     border-radius: 5px;
     padding: 5rem 4rem 4rem 4rem;
     display: flex;

@@ -16,11 +16,29 @@ import { MakeJobPostComponent } from './pages/make-job-post/make-job-post/make-j
 import { HomeComponent } from './pages/home/home.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ReactiveFormsModule } from '@angular/forms';
-import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
-import {TranslateHttpLoader} from '@ngx-translate/http-loader';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { SharedModule } from './shared/shared.module';
+import { HumanSciencesComponent } from './pages/students/human-sciences/human-sciences.component';
+import { EconomicsBusinessComponent } from './pages/students/economics-business/economics-business.component';
+import { PedagogyComponent } from './pages/students/pedagogy/pedagogy.component';
+import { ItComponent } from './pages/students/it/it.component';
+import { FoodSciencesComponent } from './pages/students/food-sciences/food-sciences.component';
+import { ArchitectureComponent } from './pages/students/architecture/architecture.component';
+import { EnvironmentalEngineeringComponent } from './pages/students/environmental-engineering/environmental-engineering.component';
+import { MechanicalEngineeringComponent } from './pages/students/mechanical-engineering/mechanical-engineering.component';
+import { MechatronicalEngineeringComponent } from './pages/students/mechatronical-engineering/mechatronical-engineering.component';
+import { BiologyBiochemicalEngineeringComponent } from './pages/students/biology-biochemical-engineering/biology-biochemical-engineering.component';
+import { ChemistryChemicalEngineeringComponent } from './pages/students/chemistry-chemical-engineering/chemistry-chemical-engineering.component';
+import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
+import { NaturalSciencesComponent } from './pages/students/natural-sciences/natural-sciences.component';
+import { PhysicsComponent } from './pages/students/physics/physics.component';
+import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
+import { MathematicsComponent } from './pages/students/mathematics/mathematics.component';
+import { PsychologyComponent } from './pages/students/psychology/psychology.component';
+import { LifeSciencesComponent } from './pages/students/life-sciences/life-sciences.component';
 
 
 
@@ -40,6 +58,24 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     HomeComponent,
     ErrorPageComponent,
     FooterComponent,
+    HumanSciencesComponent,
+    EconomicsBusinessComponent,
+    PedagogyComponent,
+    ItComponent,
+    FoodSciencesComponent,
+    ArchitectureComponent,
+    EnvironmentalEngineeringComponent,
+    MechanicalEngineeringComponent,
+    MechatronicalEngineeringComponent,
+    BiologyBiochemicalEngineeringComponent,
+    ChemistryChemicalEngineeringComponent,
+    AgricultureComponent,
+    NaturalSciencesComponent,
+    PhysicsComponent,
+    PrivateClassesComponent,
+    MathematicsComponent,
+    PsychologyComponent,
+    LifeSciencesComponent,
   ],
   imports: [
     BrowserModule,
@@ -51,6 +87,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     MatMenuModule,
     ReactiveFormsModule,
     HttpClientModule,
+    SharedModule,  
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -58,8 +95,6 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
         deps: [HttpClient]
       }
     })
-    
-    
   ],
   providers: [],
   bootstrap: [AppComponent]

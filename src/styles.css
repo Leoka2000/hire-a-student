@@ -55,3 +55,38 @@ table {
 
 /* Reset default styles */
 
+#special-h1 {
+	background-color: #88888802;
+backdrop-filter: blur(5px);
+padding: 2.5rem;
+border-radius: 18px;
+font-weight: 700;
+font-size: 2.5rem;
+font-family: 'Space Grotesk', sans-serif;
+}
+.mat-typography h1 {
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+.padded-section {
+	padding: 18rem 0 17rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+position: relative;
+    background-position: 0px 0px, 50% 0%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    border-bottom: 1px solid #393939;
+}
+.students-section {
+	padding: 8rem 0 8rem 0;
+	display: flex;
+justify-content: center;
+align-items: center;
+}
+#students-h1 {
+	width: 50rem;
+	text-align: center;
+}

@@ -1,5 +1,6 @@
-import { Component, HostListener } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,15 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  constructor(private router: Router) {}
+  languages = [
+    { code: 'en', label: 'English' },
+    { code: 'hu', label: 'Hungarian' }
+  ];
+
+  constructor(
+    private router: Router,
+    public translate: TranslateService
+  ) {}
 
   isRouteActive(route: string): boolean {
     return this.router.url.includes(route);
@@ -15,5 +24,13 @@ export class HeaderComponent {
 
   isStudentRouteActive(): boolean {
     return this.router.url.startsWith('/students');
+  }
+
+  switchLanguage(languageCode: string): void {
+    this.translate.use(languageCode);
+  }
+
+  getCurrentLanguage(): string {
+    return this.translate.currentLang;
   }
 }
