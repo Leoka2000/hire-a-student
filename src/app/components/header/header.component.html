@@ -1,8 +1,3 @@
-
-
-
-
-
 <nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar scroll</a>
@@ -13,7 +8,8 @@
         </option>
       </select>
     </label>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse gap" id="navbarScroll">
@@ -27,23 +23,36 @@
             aria-expanded="false">Students</a>
           <ul class="dropdown-menu bg-dark">
             <li> <a [routerLink]="'students/law'" class="dropdown-item">Law</a></li>
-            <li> <a [routerLink]="'students/medical-sciences'" class="dropdown-item">Medical sciences</a></li>
+            <li> <a [routerLink]="'students/health-care'" class="dropdown-item">Health Care</a></li>
             <li> <a [routerLink]="'students/human-sciences'" class="dropdown-item">Human sciences</a></li>
-            <li> <a [routerLink]="'students/economics-and-business'"  class="dropdown-item">Economics and business</a></li>
-            <li> <a [routerLink]="'students/pedagogy'"  class="dropdown-item">Pedagogy</a></li>
-            <li> <a [routerLink]="'students/it'"  class="dropdown-item">Information technology (IT)</a></li>
-            <li> <a [routerLink]="'students/food-sciences'"  class="dropdown-item">Food sciences</a></li>
+            <li> <a [routerLink]="'students/economics-and-business'" class="dropdown-item">Economics and business</a>
+            </li>
+            <li> <a [routerLink]="'students/pedagogy'" class="dropdown-item">Pedagogy</a></li>
+            <li> <a [routerLink]="'students/it'" class="dropdown-item">Information technology (IT)</a></li>
+            <li> <a [routerLink]="'students/food-sciences'" class="dropdown-item">Food sciences</a></li>
             <li> <a [routerLink]="'students/architecture'" class="dropdown-item">Architecture</a></li>
-            <li> <a [routerLink]="'students/environmental-engineering'" class="dropdown-item">Environmental engineering</a></li>
-            <li> <a [routerLink]="'students/mechanical-engineering'" class="dropdown-item">Mechanical engineering</a></li>
-            <li> <a [routerLink]="'students/mechatronics-egineering'" class="dropdown-item">Mechatronics engineering</a></li>
-            <li> <a [routerLink]="'students/biology-biochemical-engineering'" class="dropdown-item">Biology and biochemical engineering</a></li>
-            <li> <a [routerLink]="'students/chemistry-chemical-engineering'" class="dropdown-item">Chemistry and chemical engineering</a></li>
+            <li> <a [routerLink]="'students/environmental-engineering'" class="dropdown-item">Environmental
+                engineering</a></li>
+            <li> <a [routerLink]="'students/mechanical-engineering'" class="dropdown-item">Mechanical engineering</a>
+            </li>
+            <li> <a [routerLink]="'students/mechatronics-egineering'" class="dropdown-item">Mechatronics engineering</a>
+            </li>
+            <li> <a [routerLink]="'students/biology-biochemical-engineering'" class="dropdown-item">Biology and
+                biochemical engineering</a></li>
+            <li> <a [routerLink]="'students/chemistry-chemical-engineering'" class="dropdown-item">Chemistry and
+                chemical engineering</a></li>
             <li> <a [routerLink]="'students/agriculture'" class="dropdown-item">Agriculture</a></li>
             <li> <a [routerLink]="'students/mathematics'" class="dropdown-item">Mathematics</a></li>
             <li> <a [routerLink]="'students/natural-sciences'" class="dropdown-item">Natural sciences</a></li>
             <li> <a [routerLink]="'students/physics'" class="dropdown-item">Physics</a></li>
             <li> <a [routerLink]="'students/private-classes'" class="dropdown-item">Private classes</a></li>
+            <li> <a [routerLink]="'students/psychology'" class="dropdown-item">Psychology</a></li>
+            <li> <a [routerLink]="'students/electrical-engineering'" class="dropdown-item">Electrical engineering</a>
+            </li>
+            <li> <a [routerLink]="'students/design'" class="dropdown-item">Design</a></li>
+            <li> <a [routerLink]="'students/marketing'" class="dropdown-item">Marketing</a></li>
+            <li> <a [routerLink]="'students/life-sciences'" class="dropdown-item">Life sciences</a></li>
+
           </ul>
         </li>
         <li [ngClass]="{ 'active': isRouteActive('job-positions') }"><a [routerLink]="'job-positions'">Job postings</a>
@@ -51,8 +60,8 @@
         <li class="btn-subs"><a id="subscribe-btn" target="_blank" class="subscribe-btn"
             href="https://docs.google.com/forms/d/e/1FAIpQLScfHIlmqtRifROtwyWbsNCWe-LF-HtNebA1Tvbkk8WjTs44LA/viewform?usp=sf_link">Subscribe
             as a student</a></li>
-            <br class="nav-br">
-          
+        <br class="nav-br">
+
         <li><a class="job-button" [routerLink]="'make-job-post'">Make job post</a></li>
       </ul>
     </div>

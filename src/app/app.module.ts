@@ -39,6 +39,10 @@ import { PrivateClassesComponent } from './pages/students/private-classes/privat
 import { MathematicsComponent } from './pages/students/mathematics/mathematics.component';
 import { PsychologyComponent } from './pages/students/psychology/psychology.component';
 import { LifeSciencesComponent } from './pages/students/life-sciences/life-sciences.component';
+import { DesignComponent } from './pages/students/design/design.component';
+import { PublicRelationsComponent } from './pages/students/public-relations/public-relations.component';
+import { ElectricalEngineeringComponent } from './pages/students/electrical-engineering/electrical-engineering.component';
+import { MarketingComponent } from './pages/students/marketing/marketing.component';
 
 
 
@@ -76,6 +80,10 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     MathematicsComponent,
     PsychologyComponent,
     LifeSciencesComponent,
+    DesignComponent,
+    PublicRelationsComponent,
+    ElectricalEngineeringComponent,
+    MarketingComponent,
   ],
   imports: [
     BrowserModule,

@@ -23,6 +23,11 @@ import { MathematicsComponent } from './pages/students/mathematics/mathematics.c
 import { NaturalSciencesComponent } from './pages/students/natural-sciences/natural-sciences.component';
 import { PhysicsComponent } from './pages/students/physics/physics.component';
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
+import { PsychologyComponent } from './pages/students/psychology/psychology.component';
+import { ElectricalEngineeringComponent } from './pages/students/electrical-engineering/electrical-engineering.component';
+import { DesignComponent } from './pages/students/design/design.component';
+import { MarketingComponent } from './pages/students/marketing/marketing.component';
+import { LifeSciencesComponent } from './pages/students/life-sciences/life-sciences.component';
 
 
 const routes: Routes = [
@@ -31,7 +36,7 @@ const routes: Routes = [
   {path: 'job-positions', component: JobPositionsComponent},
   {path: 'make-job-post', component: MakeJobPostComponent},
   {path: 'students/law', component: LawComponent},
-  {path: 'students/medical-sciences', component: MedicalSciencesComponent}, 
+  {path: 'students/health-care', component: MedicalSciencesComponent}, 
   {path: 'students/human-sciences', component: HumanSciencesComponent}, 
   {path: 'students/economics-and-business', component: EconomicsBusinessComponent},
   {path: 'students/pedagogy', component: PedagogyComponent},
@@ -48,6 +53,11 @@ const routes: Routes = [
   {path: 'students/natural-sciences', component: NaturalSciencesComponent},
   {path: 'students/physics', component: PhysicsComponent},
   {path: 'students/private-classes', component: PrivateClassesComponent},
+  {path: 'students/psychology', component: PsychologyComponent},
+  {path: 'students/electrical-engineering', component: ElectricalEngineeringComponent},
+  {path: 'students/design', component: DesignComponent},
+  {path: 'students/marketing', component: MarketingComponent},
+  {path: 'students/life-sciences', component: LifeSciencesComponent},
 
   {path: '', redirectTo: 'home', pathMatch: 'full'}, // to set home as default page
   { path: '**', component: ErrorPageComponent }
