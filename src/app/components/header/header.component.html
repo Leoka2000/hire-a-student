@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar scroll</a>
+    <a class="navbar-brand" href="#">LOGO</a>
     <label id="lang-label">
       <select #langSelect (change)="switchLanguage(langSelect.value)">
         <option *ngFor="let lang of languages" [value]="lang.code" [selected]="lang.code === getCurrentLanguage()">
@@ -16,53 +16,49 @@
       <ul>
         <br class="nav-br">
         <br class="nav-br">
-        <li [ngClass]="{ 'active': isRouteActive('home') }"><a [routerLink]="'home'">Home</a></li>
-        <li [ngClass]="{ 'active': isRouteActive('contact') }"><a [routerLink]="'contact'">Contact</a></li>
+        <li [ngClass]="{ 'active': isRouteActive('home') }"><a [routerLink]="'home'">{{ 'navbar.nav1' | translate }}</a></li>
+        <li [ngClass]="{ 'active': isRouteActive('contact') }"><a [routerLink]="'contact'">{{ 'navbar.nav2' | translate }}</a></li>
         <li [ngClass]="{ 'activez': isStudentRouteActive() }" class="nav-item dropdown">
           <a id="students" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">Students</a>
+            aria-expanded="false">{{ 'navbar.nav3' | translate }}</a>
           <ul class="dropdown-menu bg-dark">
-            <li> <a [routerLink]="'students/law'" class="dropdown-item">Law</a></li>
-            <li> <a [routerLink]="'students/health-care'" class="dropdown-item">Health Care</a></li>
-            <li> <a [routerLink]="'students/human-sciences'" class="dropdown-item">Human sciences</a></li>
-            <li> <a [routerLink]="'students/economics-and-business'" class="dropdown-item">Economics and business</a>
+            <li> <a [routerLink]="'students/law'" class="dropdown-item">{{ 'students.law' | translate }}</a></li>
+            <li> <a [routerLink]="'students/health-care'" class="dropdown-item">{{ 'students.health-care' | translate }}</a></li>
+            <li> <a [routerLink]="'students/human-sciences'" class="dropdown-item">{{ 'students.human-sciences' | translate }}</a></li>
+            <li> <a [routerLink]="'students/economics-and-business'" class="dropdown-item">{{ 'students.finance-business' | translate }}</a>
             </li>
-            <li> <a [routerLink]="'students/pedagogy'" class="dropdown-item">Pedagogy</a></li>
-            <li> <a [routerLink]="'students/it'" class="dropdown-item">Information technology (IT)</a></li>
-            <li> <a [routerLink]="'students/food-sciences'" class="dropdown-item">Food sciences</a></li>
-            <li> <a [routerLink]="'students/architecture'" class="dropdown-item">Architecture</a></li>
-            <li> <a [routerLink]="'students/environmental-engineering'" class="dropdown-item">Environmental
-                engineering</a></li>
-            <li> <a [routerLink]="'students/mechanical-engineering'" class="dropdown-item">Mechanical engineering</a>
+            <li> <a [routerLink]="'students/pedagogy'" class="dropdown-item">{{ 'students.pedagogy' | translate }}</a></li>
+            <li> <a [routerLink]="'students/it'" class="dropdown-item">{{ 'students.it' | translate }}</a></li>
+            <li> <a [routerLink]="'students/food-sciences'" class="dropdown-item">{{ 'students.food-sciences' | translate }}</a></li>
+            <li> <a [routerLink]="'students/architecture'" class="dropdown-item">{{ 'students.architecture' | translate }}</a></li>
+            <li> <a [routerLink]="'students/environmental-engineering'" class="dropdown-item">{{ 'students.environmental-engineering' | translate }}</a></li>
+            <li> <a [routerLink]="'students/mechanical-engineering'" class="dropdown-item">{{ 'students.mechanical-engineering' | translate }}</a>
             </li>
-            <li> <a [routerLink]="'students/mechatronics-egineering'" class="dropdown-item">Mechatronics engineering</a>
+            <li> <a [routerLink]="'students/mechatronics-egineering'" class="dropdown-item">{{ 'students.mechatronics-engineering' | translate }}</a>
             </li>
-            <li> <a [routerLink]="'students/biology-biochemical-engineering'" class="dropdown-item">Biology and
-                biochemical engineering</a></li>
-            <li> <a [routerLink]="'students/chemistry-chemical-engineering'" class="dropdown-item">Chemistry and
-                chemical engineering</a></li>
-            <li> <a [routerLink]="'students/agriculture'" class="dropdown-item">Agriculture</a></li>
-            <li> <a [routerLink]="'students/mathematics'" class="dropdown-item">Mathematics</a></li>
-            <li> <a [routerLink]="'students/natural-sciences'" class="dropdown-item">Natural sciences</a></li>
-            <li> <a [routerLink]="'students/physics'" class="dropdown-item">Physics</a></li>
-            <li> <a [routerLink]="'students/private-classes'" class="dropdown-item">Private classes</a></li>
-            <li> <a [routerLink]="'students/psychology'" class="dropdown-item">Psychology</a></li>
-            <li> <a [routerLink]="'students/electrical-engineering'" class="dropdown-item">Electrical engineering</a>
+            <li> <a [routerLink]="'students/biology-biochemical-engineering'" class="dropdown-item">{{ 'students.biology-biochemical-engineering' | translate }}</a></li>
+            <li> <a [routerLink]="'students/chemistry-chemical-engineering'" class="dropdown-item">{{ 'students.chemistry-chemical-engineering' | translate }}</a></li>
+            <li> <a [routerLink]="'students/agriculture'" class="dropdown-item">{{ 'students.agriculture' | translate }}</a></li>
+            <li> <a [routerLink]="'students/mathematics'" class="dropdown-item">{{ 'students.mathematics' | translate }}</a></li>
+            <li> <a [routerLink]="'students/natural-sciences'" class="dropdown-item">{{ 'students.natural-sciences' | translate }}</a></li>
+            <li> <a [routerLink]="'students/physics'" class="dropdown-item">{{ 'students.physics' | translate }}</a></li>
+            <li> <a [routerLink]="'students/private-classes'" class="dropdown-item">{{ 'students.private-classes' | translate }}</a></li>
+            <li> <a [routerLink]="'students/psychology'" class="dropdown-item">{{ 'students.psychology' | translate }}</a></li>
+            <li> <a [routerLink]="'students/electrical-engineering'" class="dropdown-item">{{ 'students.electrical-engineering' | translate }}</a>
             </li>
-            <li> <a [routerLink]="'students/design'" class="dropdown-item">Design</a></li>
-            <li> <a [routerLink]="'students/marketing'" class="dropdown-item">Marketing</a></li>
-            <li> <a [routerLink]="'students/life-sciences'" class="dropdown-item">Life sciences</a></li>
+            <li> <a [routerLink]="'students/design'" class="dropdown-item">{{ 'students.design' | translate }}</a></li>
+            <li> <a [routerLink]="'students/marketing'" class="dropdown-item">{{ 'students.marketing' | translate }}</a></li>
+            <li> <a [routerLink]="'students/life-sciences'" class="dropdown-item">{{ 'students.life-sciences' | translate }}</a></li>
 
           </ul>
         </li>
-        <li [ngClass]="{ 'active': isRouteActive('job-positions') }"><a [routerLink]="'job-positions'">Job postings</a>
+        <li [ngClass]="{ 'active': isRouteActive('job-positions') }"><a [routerLink]="'job-positions'">{{ 'navbar.nav4' | translate }}</a>
         </li>
         <li class="btn-subs"><a id="subscribe-btn" target="_blank" class="subscribe-btn"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScfHIlmqtRifROtwyWbsNCWe-LF-HtNebA1Tvbkk8WjTs44LA/viewform?usp=sf_link">Subscribe
-            as a student</a></li>
+            href="https://docs.google.com/forms/d/e/1FAIpQLScfHIlmqtRifROtwyWbsNCWe-LF-HtNebA1Tvbkk8WjTs44LA/viewform?usp=sf_link">{{ 'navbar.nav5' | translate }}</a></li>
         <br class="nav-br">
 
-        <li><a class="job-button" [routerLink]="'make-job-post'">Make job post</a></li>
+        <li><a class="job-button" [routerLink]="'make-job-post'">{{ 'navbar.nav6' | translate }}</a></li>
       </ul>
     </div>
   </div>

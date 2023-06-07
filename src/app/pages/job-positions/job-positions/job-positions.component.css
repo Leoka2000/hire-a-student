@@ -30,7 +30,7 @@ position: relative;
     position: absolute;
     bottom: -4rem;
     backdrop-filter: blur(5px);
-    z-index: 5;
+    z-index: 2;
 }
 .arrow:hover {
 background-color: #7f6aff;

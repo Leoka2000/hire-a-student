@@ -9,8 +9,11 @@ import { ViewportScroller } from '@angular/common';
   styleUrls: ['./job-positions.component.css']
 })
 export class JobPositionsComponent {
-  constructor(private viewportScroller: ViewportScroller,
-    private elementRef: ElementRef) { }
+  constructor(
+    private viewportScroller: ViewportScroller,
+    private elementRef: ElementRef,
+    public translate: TranslateService
+    ) { }
 
     scrollTo(elementId: string): void {
       const element = this.elementRef.nativeElement.querySelector(`#${elementId}`);

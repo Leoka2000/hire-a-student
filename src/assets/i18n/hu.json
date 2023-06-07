@@ -1,7 +1,70 @@
 {
-    "HOME": {
-      "TITLE": "Jó napot kivanok",
-      "SELECT": "BASSZA KI MOST"
-    }
+  "navbar": {
+    "nav1": "Háza",
+    "nav2": "Kapcsolat",
+    "nav3": "Hallgatók",
+    "nav4": "Alláshírdetések",
+    "nav5": "Feliratkozás diákként",
+    "nav6": "Álláshirdetés készítése"
+  },
+  "students": {
+    "law": "Jogtudományok",
+    "health-care": "Egészségügy",
+    "human-sciences": "Bölcsészettudományok",
+    "finance-business": "Pénzügy és üzlet",
+    "pedagogy": "Pedagógia",
+    "it": "Információ technológia (IT)",
+    "food-sciences": "Élelmiszertudományok",
+    "architecture": "Építészmérnöki",
+    "environmental-engineering": "Környezetmérnöki",
+    "mechanical-engineering": "Gépészmérnöki",
+    "mechatronics-engineering": "Mechatronikai mérnöki",
+    "biology-biochemical-engineering": "Biológia és Biomérnöki",
+    "chemistry-chemical-engineering": "Kémia és vegyészmérnöki",
+    "agriculture": "Mezőgazdaság",
+    "mathematics": "Matematika",
+    "natural-sciences": "Természettudományok",
+    "physics": "Fizika",
+    "private-classes": "Magánórák",
+    "psychology": "Pszichológia",
+    "electrical-engineering": "Villamosmérnöki",
+    "design": "Design",
+    "marketing": "Kereskedelem és marketing",
+    "life-sciences": "Élettudományok"
+},
+  "hero": {
+    "hero-1": "A felvételi folyamat megkönnyítése mindenki számára"
+  },
+  "landing": {
+    "landing1": "Tekintse meg, mit teszünk azért, hogy a diákok közelebb kerüljenek a magyar munkaerőpiachoz!",
+    "landing2": "Ön cég vagy magánszemély és szüksége van valakire, akit felvehet szakmai gyakorlatra vagy álláshelyre?",
+    "landing3": "Állást vagy szakmai gyakorlatot keres?",
+    "landing4": "Kérdése van? Nézze meg a honlapon a gyakran ismételt kérdések rovatot!",
+    "landing-seemore": "Lásd még"
+  },
+  "faq": {
+    "faq1": "Gyakran ismételt kérdések",
+    "faq2": "Mennyibe kerül egy álláshirdetés közzététele?",
+    "faq3": "2000 Ft-ba kerül egy állás meghirdetése a platformon.",
+    "faq4": "Az egyetemi hallgatóknak fizetniük szükséges a feliratkozáshoz?",
+    "faq5": "Nem. A platform ingyenes az alapképzésen résztvevő egyetemi hallgatók számára. Iratkozzon fel a platformra",
+    "faq5.1": "ide kattintva.",
+    "faq6": "Bármilyen egyetemi hallgató regisztrálhat? ",
+    "faq7": "Igen, amennyiben Ön rendszeresen állandó hallgatója bármely magyar egyetemnek. Ez az alapképzésben résztvevő egyetemi hallgatókra vonatkozik. A regisztrációhoz",
+    "faq7.1": "kattintson ide.",
+    "faq8": "Találtam egy állást. Hogyan léphetek kapcsolatba a céggel?",
+    "faq9": "Az",
+    "faq9.1": "'Álláshírdetések'",
+    "faq9.2": "fülön minden állásajánlathoz tartozik egy e-mail cím. Csupán küldjön egy e-mailt annak a vállalkozásnak, amelyik ezt az állást kínálja."
+  },
+  "footer": {
+    "footer1": "Regisztráljon ingyenesen",
+    "footer2": "Iratkozzon fel!",
+    "footer3": "Tekintse meg",
+    "footer4": "feltételeket és szolgáltatásokat",
+    "footer5": "Fejlesztő:"
+  },
+  "job-posts" : {
+    "jobs:": "Legutóbbi álláshirdetések"
   }
-  
+}

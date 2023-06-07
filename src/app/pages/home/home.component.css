@@ -126,7 +126,7 @@ border-color: #fff;
     bottom: -4.0rem;
     left: 40rem;
     backdrop-filter: blur(5px);
-    z-index: 5;
+    z-index: 2;
 }
 .arrow:hover {
 background-color: #7f6aff;
@@ -166,6 +166,7 @@ background-color: #7f6aff;
     font-size: 3rem;
     max-width: 60rem;
     line-height: 3.5rem;
+    color: #292929
 }
 .landing-main {
     display: flex;
@@ -175,7 +176,7 @@ background-color: #7f6aff;
 }
 .landing-main > div  {
     max-width: 35rem;
-    border: 1px solid rgb(63, 63, 63);
+    border: 2px solid rgb(63, 63, 63);
     border-radius: 5px;
     padding: 5rem 4rem 4rem 4rem;
     display: flex;
@@ -222,12 +223,11 @@ transform: translate3d(0, -3px, .01px);
     font-size: 3rem;
     font-family: 'Space Grotesk', sans-serif;
     margin-bottom: 4rem;
-    padding: 0rem 3rem 0 3rem;
+    padding: 0rem 4rem 0 4rem;
 }
 .faq-section {
-    padding: 10rem 0 20rem 0;
+    padding: 10rem 0 12rem 0;
     position: relative;
-    background-color: #292929;
    
 }
 
@@ -251,7 +251,7 @@ background: url(../../../assets/overlay-bottom.png);
 }
 
 .faq-individual {
-    padding: 0rem 3rem 0 3rem;
+    padding: 0rem 4rem 0 4rem;
     margin-bottom: 3rem;
     
 }

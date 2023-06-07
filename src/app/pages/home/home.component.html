@@ -11,10 +11,10 @@
         </svg></span>
     <div class="hero-wrapper">
         <h1>Easy Hire</h1>
-        <p>Making the hiring process easier for everyone</p>
+        <p>{{ 'hero.hero-1' | translate }}</p>
         <div class="hero-buttons">
-            <a class="primary-btn">Subscribe as a student</a>
-            <a class="post-btn">Make a job post</a>
+            <a class="primary-btn">{{ 'navbar.nav6' | translate }}</a>
+            <a class="post-btn">{{ 'navbar.nav5' | translate }}</a>
         </div>
     </div>
 
@@ -37,11 +37,7 @@
 <section id="landing" class="landing-section">
     <div class="landing-wrapper">
         <header>
-            <div class="title-line">
-                <div></div>
-                <p>How we operate</p>
-            </div>
-            <h1>Check out some of the things we do to make students closer to the hungarian job market</h1>
+            <h1>{{ 'landing.landing1' | translate }}</h1>
         </header>
         <main class="landing-main">
             <div>
@@ -73,9 +69,9 @@
                     </svg>
                 </span>
                 <div>
-                    <h1> Are you a company or an individual and need someone to hire for an internship or job?</h1>
+                    <h1>{{ 'landing.landing2' | translate }}</h1>
                 </div>
-                <a class="primary-btn-2">Subscribe as a student</a>
+                <a class="primary-btn-2">{{ 'navbar.nav6' | translate }}</a>
             </div>
             <div>
                 <span><svg width="140" height="140" viewBox="0 0 140 140" fill="none"
@@ -95,20 +91,20 @@
                     </svg>
                 </span>
                 <div>
-                    <h1>Are you looking for a job or an internship?</h1>
+                    <h1>{{ 'landing.landing3' | translate }}</h1>
                     <br>
                 </div>
-                <a class="primary-btn-2">Make job post</a>
+                <a class="primary-btn-2">{{ 'navbar.nav5' | translate }}</a>
             </div>
             <div>
                 <div class="help-wrapper">
                     <span id="help-icon"><mat-icon id="icon">help_outline</mat-icon></span>
                 </div>
                 <div>
-                    <h1>Do you have any questions? Check out the frequently asked questions of the website!</h1>
+                    <h1>{{ 'landing.landing4' | translate }}</h1>
                     <br>
                 </div>
-                <a (click)="scrollTo('faq')" class="primary-btn-2">See more</a>
+                <a (click)="scrollTo('faq')" class="primary-btn-2">{{ 'landing.landing-seemore' | translate }}</a>
             </div>
         </main>
     </div>
@@ -118,11 +114,11 @@
 
 <section id='faq' class="faq-section">
     <div>
-        <header>Frequently asked questions</header>
+        <header>{{ 'faq.faq1' | translate }}</header>
         <div class="faq-individual">
             <nav class="navbar navbar-dark borderz">
                 <div class="container-fluid custom">
-                    <h1>How much does it cost to post a job position advertisement?</h1>
+                    <h1>{{ 'faq.faq2' | translate }}</h1>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown1"
                         aria-controls="dropdown1" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -131,20 +127,18 @@
             </nav>
             <div class="collapse bg-dark" id="dropdown1">
                 <div class="bg-dark p-3 border-radius borderz">
-                    <h4 class="font text-white h4">It costs R$29.90 to post a vacancy on the HIRING A UFRGS STUDENT
-                        platform
+                    <h4 class="font text-white h4">{{ 'faq.faq3' | translate }}
                     </h4>
                 </div>
             </div>
         </div>
         <div>
-            <h2>{{ 'HOME.TITLE' | translate }}</h2>
             
           </div>
         <div class="faq-individual">
             <nav class="navbar navbar-dark borderz">
                 <div class="container-fluid custom">
-                    <h1>Does the university students have to pay in order to subscribe?</h1>
+                    <h1>{{ 'faq.faq4' | translate }}</h1>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown2"
                         aria-controls="dropdown2" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -153,16 +147,14 @@
             </nav>
             <div class="collapse bg-dark" id="dropdown2">
                 <div class="bg-dark p-3 border-radius borderz">
-                    <h4 class="font text-white h4">No. The platform is free for undergraduate students. Create your
-                        account
-                        by <a target="_blank" href="#"> clicking here.</a></h4>
+                    <h4 class="font text-white h4">{{ 'faq.faq5' | translate }} <a target="_blank" href="#"> {{ 'faq.faq5.1' | translate }}</a></h4>
                 </div>
             </div>
         </div>
         <div class="faq-individual">
             <nav class="navbar navbar-dark borderz">
                 <div class="container-fluid custom">
-                    <h1>Can any university student subscribe?</h1>
+                    <h1>{{ 'faq.faq6' | translate }}</h1>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown3"
                         aria-controls="dropdown3" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -171,15 +163,14 @@
             </nav>
             <div class="collapse bg-dark" id="dropdown3">
                 <div class="bg-dark p-3 border-radius borderz">
-                    <h4 class="font text-white h4">In the <a [routerLink]="'/job-positions'">"vacancies"</a> tab there
-                        Yes, as long as you are regularly enrolled at any hungarian university. This applies to undergraduate students. To register <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScfHIlmqtRifROtwyWbsNCWe-LF-HtNebA1Tvbkk8WjTs44LA/viewform?usp=sf_link">click here</a></h4>
+                    <h4 class="font text-white h4">{{ 'faq.faq7' | translate }} <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScfHIlmqtRifROtwyWbsNCWe-LF-HtNebA1Tvbkk8WjTs44LA/viewform?usp=sf_link">{{ 'faq.faq7.1' | translate }}</a></h4>
                 </div>
             </div>
         </div>
         <div class="faq-individual">
             <nav class="navbar navbar-dark borderz">
                 <div class="container-fluid custom">
-                    <h1>I have found an opening. How do I contact the company?</h1>
+                    <h1>{{ 'faq.faq8' | translate }}</h1>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown4"
                         aria-controls="dropdown4" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -188,10 +179,7 @@
             </nav>
             <div class="collapse bg-dark" id="dropdown4">
                 <div class="bg-dark p-3 border-radius borderz">
-                    <h4 class="font text-white h4">In the <a [routerLink]="'/job-positions'">"vacancies"</a> tab there
-                        is an
-                        announcement for each job offer. Just send an e-mail to the enterprise who is offering this
-                        position.</h4>
+                    <h4 class="font text-white h4"> {{ 'faq.faq9' | translate }} <a [routerLink]="'/job-positions'"> {{ 'faq.faq9.1' | translate }} </a> {{ 'faq.faq9.2' | translate }}</h4>
                 </div>
             </div>
         </div>

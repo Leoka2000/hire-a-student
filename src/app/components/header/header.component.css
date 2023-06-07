@@ -87,10 +87,12 @@ li > a:hover {
 .navbar ul li.active a,
 .navbar ul li.activez a#students {
   color: #7f6aff;
+  border-bottom: #7f6aff 1px solid;
 }
 
 .navbar ul li.active a {
   color: #7f6aff;
+  border-bottom: #7f6aff 1px solid;
 }
 
 
