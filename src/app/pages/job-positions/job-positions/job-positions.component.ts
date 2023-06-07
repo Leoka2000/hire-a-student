@@ -13,7 +13,7 @@ export class JobPositionsComponent {
     private viewportScroller: ViewportScroller,
     private elementRef: ElementRef,
     public translate: TranslateService
-    ) { }
+    ) {}
 
     scrollTo(elementId: string): void {
       const element = this.elementRef.nativeElement.querySelector(`#${elementId}`);

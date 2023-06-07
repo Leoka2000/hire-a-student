@@ -7,9 +7,21 @@
     "nav5": "Feliratkozás diákként",
     "nav6": "Álláshirdetés készítése"
   },
+  "contact": {
+    "contact1": "Az én e-mail címem",
+    "contact2": "Az én telefonszámom",
+    "contact3": "Küldjön üzenetet nekem!",
+    "contact4": "Név",
+    "contact5": "A teljes névnek legalább 3 karakterből kell állnia",
+    "contact6": "Email cím",
+    "contact7": "Adjon meg egy érvényes e-mailt",
+    "contact8": "Írja meg üzenetét",
+    "contact9": "Üzenet szükséges",
+    "contact10": "Üzenet küldése"
+  },
   "students": {
     "law": "Jogtudományok",
-    "health-care": "Egészségügy",
+    "health-care": "Egészségtudományok",
     "human-sciences": "Bölcsészettudományok",
     "finance-business": "Pénzügy és üzlet",
     "pedagogy": "Pedagógia",
@@ -31,9 +43,16 @@
     "design": "Design",
     "marketing": "Kereskedelem és marketing",
     "life-sciences": "Élettudományok"
-},
+  },
   "hero": {
-    "hero-1": "A felvételi folyamat megkönnyítése mindenki számára"
+    "hero-1": "A felvételi folyamat megkönnyítése mindenki számára",
+    "jobs":"Legújabb álláshirdetések",
+    "jobs1": "Íme néhány a weboldalon közzétett legújabb állásajánlatok közül. Jelenleg nincsenek közzétett állásajánlatok.",
+    "jobs2": "Kategória:",
+    "jobs3": "Kapcsolat:",
+    "jobs4": "álláshely:",
+    "jobs5": "Fizetés:",
+    "jobs6": "Leírás:"
   },
   "landing": {
     "landing1": "Tekintse meg, mit teszünk azért, hogy a diákok közelebb kerüljenek a magyar munkaerőpiachoz!",
@@ -57,14 +76,14 @@
     "faq9.1": "'Álláshírdetések'",
     "faq9.2": "fülön minden állásajánlathoz tartozik egy e-mail cím. Csupán küldjön egy e-mailt annak a vállalkozásnak, amelyik ezt az állást kínálja."
   },
+  "advertisements" : {
+    "jobs:": "Legutóbbi álláshirdetések"
+  },
   "footer": {
     "footer1": "Regisztráljon ingyenesen",
     "footer2": "Iratkozzon fel!",
     "footer3": "Tekintse meg",
     "footer4": "feltételeket és szolgáltatásokat",
     "footer5": "Fejlesztő:"
-  },
-  "job-posts" : {
-    "jobs:": "Legutóbbi álláshirdetések"
   }
 }

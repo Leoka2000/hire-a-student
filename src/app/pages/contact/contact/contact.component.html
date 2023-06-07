@@ -26,39 +26,37 @@
         <div class="left-upper">
           <div>
             <div></div>
-            <p>Email us</p>
+            <p>{{ 'contact.contact1' | translate }}</p>
           </div>
           <p>contact@webstudio.com</p>
         </div>
         <div class="left-downer">
           <div>
             <div></div>
-            <p>EMAIL US</p>
+            <p>{{ 'contact.contact2' | translate }}</p>
           </div>
           <p>contact@webstudio.com</p>
         </div>
       </div>
       <div class="contact-right">
         <form class="form" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-          <h1>Contact Us</h1>
-          <p>Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-          
-          <input type="text" formControlName="fullName" placeholder="Enter name">
+          <h1>{{ 'contact.contact3' | translate }}</h1>
+          <input type="text" [formControlName]="'fullName'" [placeholder]="'contact.contact4' | translate" />
           <div *ngIf="registerForm.controls.fullName.invalid && (registerForm.controls.fullName.dirty || registerForm.controls.fullName.touched)">
-            <p class="error-message">Full name must have at least 2 characters</p>
+            <p class="error-message">{{ 'contact.contact5' | translate }}</p>
           </div>
   
-          <input type="email" formControlName="email" placeholder="Email address">
+          <input type="email" formControlName="email" [placeholder]="'contact.contact6' | translate" />
           <div *ngIf="registerForm.controls.email.invalid && (registerForm.controls.email.dirty || registerForm.controls.email.touched)">
-            <p class="error-message">Please enter a valid email address</p>
+            <p class="error-message">{{ 'contact.contact7' | translate }}</p>
           </div>
   
-          <textarea formControlName="message" placeholder="Write your message"></textarea>
+          <textarea formControlName="message"[placeholder]="'contact.contact8' | translate"></textarea>
           <div *ngIf="registerForm.controls.message.invalid && (registerForm.controls.message.dirty || registerForm.controls.message.touched)">
-            <p class="error-message">Message is required</p>
+            <p class="error-message">{{ 'contact.contact9' | translate }}</p>
           </div>
   
-          <button type="submit">Send message</button>
+          <button type="submit">{{ 'contact.contact10' | translate }}</button>
         </form>
       </div>
     </div>

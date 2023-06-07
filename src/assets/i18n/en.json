@@ -32,9 +32,27 @@
     "marketing": "Marketing and commerce",
     "life-sciences": "Life sciences"
 },
-
+"contact": {
+  "contact1": "My email address",
+  "contact2": "My phone number",
+  "contact3": "Send me a message!",
+  "contact4": "Name",
+  "contact5": "The full name must be at least 3 characters long",
+  "contact6": "Email address",
+  "contact7": "Enter a valid email",
+  "contact8": "Write your message",
+  "contact9": "Message is required",
+  "contact10": "Send message"
+  },
   "hero": {
-    "hero-1": "Making the hiring process easier for everyone"
+    "hero-1": "Making the hiring process easier for everyone",
+    "jobs": "Latest job positions",
+    "jobs1": "Here are some of the latest job positions published on the website. Currently there are no job positions published.",
+    "jobs2": "Category:",
+    "jobs3": "Contact:",
+    "jobs4": "Position:",
+    "jobs5": "Salary:",
+    "jobs6": "Description:"
   },
   "landing": {
     "landing1": "Check out some of the things we do to make students closer to the hungarian job market",
@@ -58,15 +76,15 @@
     "faq9.1": "'job positions'",
     "faq9.2": "tab there is an email address for each job offer. Just send an e-mail to the enterprise who is offering this position."
   },
+  "advertisements": {
+    "jobs": "Latest job positions"
+  },
   "footer": {
     "footer1": "Register for free",
     "footer2": "Sign up!",
     "footer3": "Check out the",
     "footer4": "terms and services",
     "footer5": "Developed by"
-  },
-  "job-posts": {
-    "jobs": "Latest job positions"
   }
 }
 

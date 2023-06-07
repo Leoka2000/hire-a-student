@@ -69,7 +69,8 @@ form {
 }
 form > h1 {
 
-font-size: 80px;
+font-size: 60px;
+text-align: center;
 font-weight: 700;
 line-height: 1.125em;
 font-family: 'Space Grotesk', sans-serif;
