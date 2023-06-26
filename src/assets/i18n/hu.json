@@ -3,7 +3,7 @@
     "nav1": "Háza",
     "nav2": "Kapcsolat",
     "nav3": "Hallgatók",
-    "nav4": "Alláshírdetések",
+    "nav4": "Álláshírdetések",
     "nav5": "Feliratkozás diákként",
     "nav6": "Álláshirdetés készítése"
   },
@@ -45,7 +45,7 @@
     "life-sciences": "Élettudományok"
   },
   "hero": {
-    "hero-1": "A felvételi folyamat megkönnyítése mindenki számára",
+    "hero-1": "Találd a tehetségét",
     "jobs":"Legújabb álláshirdetések",
     "jobs1": "Íme néhány a weboldalon közzétett legújabb állásajánlatok közül. Jelenleg nincsenek közzétett állásajánlatok.",
     "jobs2": "Kategória:",

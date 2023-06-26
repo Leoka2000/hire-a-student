@@ -1,3 +1,13 @@
 .environmental-engineering{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../../assets/bg-imgs/environmental-engineering.jpg");
 }
+
+@media screen and (max-width: 900px) {
+    .environmental-engineering{
+    
+           
+            background-size: 105rem;
+            background-position: 10rem 80rem, 10% 40%;
+        
+    }
+}

@@ -1,0 +1,64 @@
+.error-section {
+    padding: 13rem 0 8rem 0;
+    
+}
+.error-section > main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.error-section > main > h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+.error-section > main > h2 {
+    font-size: 2.75rem;
+    max-width: 35rem;
+    line-height: 3rem;
+    text-align: center;
+}
+.error-section > main > p {
+    text-align: center;
+}
+.error-section > main > a {
+  
+        color: #fff;
+        text-align: center;
+        transform-style: preserve-3d;
+        background-color: #7f6aff;
+        border: 1px solid #7f6aff;
+        border-radius: 76px;
+        justify-content: center;
+        cursor: pointer;
+        padding: 15px 27px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 1.111em;
+        text-decoration: none;
+        font-family: 'Space Grotesk', sans-serif;
+        transition: border-color .3s, background-color .3s, transform .3s, color .3s;
+}
+.error-section > main > a:hover {
+    color: #fff;
+    background-color: #7d42fb;
+    border-color: #7d42fb;
+    transform: translate3d(0, -3px, .01px);
+}
+
+@media screen and (max-width:460px) {
+    .error-section > main > h1 {
+        font-size: 4rem;
+       
+    }
+    .error-section > main > h2 {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        max-width: 25rem;
+        
+    }
+    .error-section > main {
+       margin-left: 0.75rem;
+       margin-right: 0.75rem;
+    }
+}

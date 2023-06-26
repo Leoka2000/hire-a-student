@@ -10,7 +10,7 @@
                 stroke="#7F6AFF" stroke-width="3.12971" />
         </svg></span>
     <div class="hero-wrapper">
-        <h1>Easy Hire</h1>
+        <h1>Talentum Link</h1>
         <p>{{ 'hero.hero-1' | translate }}</p>
         <div class="hero-buttons">
             <a class="primary-btn">{{ 'navbar.nav6' | translate }}</a>
@@ -28,10 +28,9 @@
                 d="M469.527 294.898C469.527 395.314 391.286 476.611 294.901 476.611C198.515 476.611 120.275 395.314 120.275 294.898C120.275 194.482 198.515 113.185 294.901 113.185C391.286 113.185 469.527 194.482 469.527 294.898Z"
                 stroke="#7F6AFF" stroke-width="3.12971" />
         </svg></span>
-        <mat-icon (click)="scrollTo('landing')"  class="arrow">arrow_downward</mat-icon>
 </section>
 
-<!-- SECTION BREAK -->
+<!-- LANDING SECTION --><!-- LANDING SECTION --><!-- LANDING SECTION --><!-- LANDING SECTION -->
 
   
 <section id="landing" class="landing-section">
@@ -71,7 +70,7 @@
                 <div>
                     <h1>{{ 'landing.landing2' | translate }}</h1>
                 </div>
-                <a class="primary-btn-2">{{ 'navbar.nav6' | translate }}</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScfHIlmqtRifROtwyWbsNCWe-LF-HtNebA1Tvbkk8WjTs44LA/viewform?usp=sf_link" class="primary-btn-2">{{ 'navbar.nav6' | translate }}</a>
             </div>
             <div>
                 <span><svg width="140" height="140" viewBox="0 0 140 140" fill="none"
@@ -91,7 +90,7 @@
                     </svg>
                 </span>
                 <div>
-                    <h1>{{ 'landing.landing3' | translate }}</h1>
+                    <h1 id="adjust-h1">{{ 'landing.landing3' | translate }}</h1>
                     <br>
                 </div>
                 <a class="primary-btn-2">{{ 'navbar.nav5' | translate }}</a>
@@ -110,7 +109,7 @@
     </div>
 </section>
 
-<!-- SECTION BREAK -->
+<!-- FAQ SECTION --><!-- FAQ SECTION --><!-- FAQ SECTION -->
 
 <section id='faq' class="faq-section">
     <div>
@@ -127,7 +126,7 @@
             </nav>
             <div class="collapse bg-dark" id="dropdown1">
                 <div class="bg-dark p-3 border-radius borderz">
-                    <h4 class="font text-white h4">{{ 'faq.faq3' | translate }}
+                    <h4 class="font drop-h4 text-white h4">{{ 'faq.faq3' | translate }}
                     </h4>
                 </div>
             </div>
@@ -147,7 +146,7 @@
             </nav>
             <div class="collapse bg-dark" id="dropdown2">
                 <div class="bg-dark p-3 border-radius borderz">
-                    <h4 class="font text-white h4">{{ 'faq.faq5' | translate }} <a target="_blank" href="#"> {{ 'faq.faq5.1' | translate }}</a></h4>
+                    <h4 class="font drop-h4 text-white h4">{{ 'faq.faq5' | translate }} <a target="_blank" href="#"> {{ 'faq.faq5.1' | translate }}</a></h4>
                 </div>
             </div>
         </div>
@@ -163,7 +162,7 @@
             </nav>
             <div class="collapse bg-dark" id="dropdown3">
                 <div class="bg-dark p-3 border-radius borderz">
-                    <h4 class="font text-white h4">{{ 'faq.faq7' | translate }} <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScfHIlmqtRifROtwyWbsNCWe-LF-HtNebA1Tvbkk8WjTs44LA/viewform?usp=sf_link">{{ 'faq.faq7.1' | translate }}</a></h4>
+                    <h4 class="font drop-h4 text-white h4">{{ 'faq.faq7' | translate }} <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScfHIlmqtRifROtwyWbsNCWe-LF-HtNebA1Tvbkk8WjTs44LA/viewform?usp=sf_link">{{ 'faq.faq7.1' | translate }}</a></h4>
                 </div>
             </div>
         </div>
@@ -179,10 +178,31 @@
             </nav>
             <div class="collapse bg-dark" id="dropdown4">
                 <div class="bg-dark p-3 border-radius borderz">
-                    <h4 class="font text-white h4"> {{ 'faq.faq9' | translate }} <a [routerLink]="'/job-positions'"> {{ 'faq.faq9.1' | translate }} </a> {{ 'faq.faq9.2' | translate }}</h4>
+                    <h4 class="font text-white drop-h4 h4"> {{ 'faq.faq9' | translate }} <a [routerLink]="'/job-positions'"> {{ 'faq.faq9.1' | translate }} </a> {{ 'faq.faq9.2' | translate }}</h4>
                 </div>
             </div>
         </div>
     </div>
+
+</section>
+
+<section class="team-section">
+    <header id="font" >Meet our team</header>
+    <main>
+        <div>
+            <div>
+                <img alt="Leo Reus Photo" src="../../../assets/team/leo.jpg"/>
+            </div>
+            <h2 id="font">Leo Reus</h2>
+            <p id="font">Chief Technology Officer</p>
+        </div>
+        <div>
+            <div>
+                <img alt="Regina Fehér Photo" src="../../../assets/team/regina.jpg"/>
+            </div>
+            <h2 id="font">Regina Fehér</h2>
+            <p id="font">Chief Marketing Officer</p>
+        </div>
+    </main>
 
 </section>

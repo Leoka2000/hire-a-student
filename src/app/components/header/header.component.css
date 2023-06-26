@@ -13,10 +13,13 @@
 }
 #lang-label {
     padding-left: 3rem;
+    display: flex;
+    gap: 0.75rem;
 }
 .nav-br {
     display: none;
 }
+
 select, option {
     font-family: 'Space Grotesk', sans-serif;
     background-color: rgb(32, 33, 39);
@@ -28,10 +31,10 @@ select, option {
     font-size: 14px;
     display: flex;
     justify-content: center;
-    border: #535353 1px solid;
+    border: #7f6aff 1px solid;
 }
 .navbar-toggler {
-    background-color: rgb(112, 112, 112);
+    background-color: rgb(36, 36, 36);
 }
 .navbar-collapse {
     width: 80%;
@@ -137,10 +140,82 @@ border-color: #7d42fb;
     background-color: #fff;
     border-color: #fff;
 }
+@media screen and (max-width: 1200px) {
+    .job-button, .subscribe-btn, .container-fluid {
+        font-size: 14px;
+    }
+    #navbarScroll > ul {
+        gap: 1.3rem;
+    }
+    #lang-label {
+        padding-left: 1.5rem;
+    }
+    
+    
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    border: 3px solid;
+    border-color: #FFF #FFF transparent transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after,
+  .loader::before {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 3px solid;
+    border-color: transparent transparent #7f6aff #7f6aff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: rotationBack 0.5s linear infinite;
+    transform-origin: center center;
+  }
+  .loader::before {
+    width: 32px;
+    height: 32px;
+    border-color: #FFF #FFF transparent transparent;
+    animation: rotation 1.5s linear infinite;
+  }
+      
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  @keyframes rotationBack {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+      
 @media screen and (max-width: 991px) {
     #navbarScroll > ul  {
       flex-direction: column;
-      
+        }
+        .dropdown-menu {
+           left: -5rem;
+        }
+        .dropdown-menu > li > a{
+            font-size: 0.75rem;
         }
         .button-subs {
             margin-bottom: 1rem;

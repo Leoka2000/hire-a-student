@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, Renderer2 } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -15,19 +15,32 @@ export class HeaderComponent {
 
   constructor(
     private router: Router,
-    public translate: TranslateService
+    public translate: TranslateService,
+    private elementRef: ElementRef,
+    private renderer: Renderer2
   ) {}
 
   isRouteActive(route: string): boolean {
     return this.router.url.includes(route);
   }
-
+  closeNavbar(): void {
+    const navbarCollapse = this.elementRef.nativeElement.querySelector('.navbar-collapse');
+    if (navbarCollapse.classList.contains('show')) {
+      navbarCollapse.classList.remove('show');
+    }
+  }
   isStudentRouteActive(): boolean {
     return this.router.url.startsWith('/students');
   }
+  isLanguageChanging: boolean = false;
 
   switchLanguage(languageCode: string): void {
-    this.translate.use(languageCode);
+    this.isLanguageChanging = true; // Display the loader
+
+    this.translate.use(languageCode)
+      .subscribe(() => {
+        this.isLanguageChanging = false; // Hide the loader when the language is successfully changed
+      });
   }
 
   getCurrentLanguage(): string {

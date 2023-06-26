@@ -4,15 +4,19 @@
     align-items: center;
     padding:15rem 0 10rem 0;
     position: relative;
-    border-top: #333 4px solid;
     
     font-family: 'Space Grotesk', sans-serif;
+}
+#silhouette-c svg,
+#silhouette-c1 svg {
+  width: 400px; 
+  height: 400px; 
 }
 #silhouette-c {
     
     position: absolute;
  right: 0rem;
- bottom: -17rem;
+ bottom: -10rem;
  z-index: -2;
  overflow: hidden;
  width: 20rem;
@@ -20,8 +24,8 @@
 }
 #silhouette-c1 {
     position: absolute;
-    top: -15rem;
-    left: -15rem;
+    top: -3rem;
+    left: -8rem;
 }
 .contact-wrapper {
     display: flex;
@@ -123,7 +127,7 @@ font-size: 20px;
 line-height: 1.5em;
 transition: color .3s, border-color .3s;
 }
-form > button {
+.contact-btn-wrapper > button {
     color: #fff;
     margin-top: 2rem;
 text-align: center;
@@ -137,14 +141,97 @@ padding: 26px 38px;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.111em;
-max-width: 20rem;
+
 text-decoration: none;
 font-family: 'Space Grotesk', sans-serif;
 transition: border-color .3s, background-color .3s, transform .3s, color .3s;
 }
-form >button:hover {
+.contact-btn-wrapper > button:hover {
     color: #fff;
     background-color: #7d42fb;
     border-color: #7d42fb;
     transform: translate3d(0, -3px, .01px);
+}
+
+@media screen and (max-width: 991px) {
+    .contact-section {
+        padding-top: 19rem;
+    }
+    .contact-wrapper {
+        display: flex;
+        gap: 4rem;
+        flex-direction: column-reverse;
+    }
+    .contact-left {
+        border-right: none;
+        border-top: #333 1px solid;
+        padding-top: 2rem;
+    }
+    form > h1 {
+        font-size: 50px;
+        text-align: start; 
+    }
+    #silhouette-c {
+    
+        position: absolute;
+     right: 0rem;
+     bottom: -11rem;
+     z-index: -2;
+     overflow: hidden;
+    
+    }
+    #silhouette-c1 {
+        position: absolute;
+        top: -8rem;
+        left: -12rem;
+    }
+    
+
+}
+@media screen and (max-width: 548px) {
+    .contact-section {
+        padding-top: 17rem;
+    }
+    form > input, form > textarea, .contact-btn-wrapper > button {
+        font-size: 16px;
+    } 
+    #silhouette-c {
+    
+        position: absolute;
+     right: 0rem;
+     bottom: -8rem;
+     z-index: -2;
+     overflow: hidden;
+     width: 11rem;
+    
+    }
+    #silhouette-c1 {
+        position: absolute;
+        top: -3rem;
+        left: -5rem;
+    }
+    .contact-btn-wrapper > button {
+       display: flex;
+       width: 100%;
+    }
+    form > h1 {
+font-size: 40px;
+    }
+   .contact-section {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+   }
+   #silhouette-c svg,
+#silhouette-c1 svg {
+  width: 300px; 
+  height: 300px; 
+}
+   .left-downer > p, .left-upper > p {
+    color: #dbdbdb;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.417em;
+font-family: 'Space Grotesk', sans-serif;
+
+}
 }
