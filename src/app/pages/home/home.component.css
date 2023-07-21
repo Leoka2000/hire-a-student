@@ -1,5 +1,5 @@
 .hero-section {
-    padding: 14rem 0 12rem 0;
+    padding: 24rem 0 22rem 0;
     position: relative;
 }
 
@@ -13,7 +13,6 @@
     left: 0;
     z-index: 1;
     bottom: 0rem;
-
     background: url(../../../assets/overlay-bottom.png);
 }
 
@@ -34,7 +33,17 @@
     font-family: 'Space Grotesk', sans-serif;
     line-height: 2.5rem;
 }
-
+.logoThumb {
+    width: auto;
+}
+.logoThumb > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6.5px;
+height: auto;
+box-shadow: 0 2px 4px #0000004d,0 0 10px #fff3;
+border: #535353 .2px solid;
+}
 .hero-wrapper>h1 {
     font-size: 3.5rem;
     font-weight: 700;
@@ -51,7 +60,7 @@
 }
 #silhouette {
     position: absolute;
-    top: 25rem;
+    top: 38rem;
     left: -10rem;
     z-index: -1;
 }
@@ -146,7 +155,7 @@
 
 .landing-section {
     background-color: rgb(243, 243, 243);
-    padding: 15rem 3rem 4rem 3rem;
+    padding: 4rem 3rem 6rem 3rem;
     z-index: 3;
     color: black;
     font-family: 'Space Grotesk', sans-serif;
@@ -229,8 +238,9 @@
 
 /* FAQ SECTION */ /* FAQ SECTION */ /* FAQ SECTION *//* FAQ SECTION */ /* FAQ SECTION *//* FAQ SECTION */
 .faq-section {
-    padding: 10rem 6rem 2rem 6rem;
+    padding: 5rem 6rem 2rem 6rem;
     position: relative;
+    background-color: #292929;
 }
 
 .faq-section>div>header {
@@ -314,7 +324,9 @@ flex-wrap: wrap;
     height: 100%;
     object-fit: cover;
     border-radius: 100%;
-    border: #535353 2px solid;
+    box-shadow: 0 2px 4px #0000004d,0 0 10px #fff3;
+    border: #535353 .7px solid;
+    filter: brightness(0.85);
 }
 
 @media screen and (max-width:1016px) {
@@ -360,7 +372,7 @@ flex-wrap: wrap;
     }
     /* FAQ */
     .faq-section {
-        padding: 10rem 1.5rem 12rem 1.5rem;
+        padding: 10rem 1.5rem 2.5rem 1.5rem;
     }
     /* FAQ */
     #silhouette {
@@ -371,6 +383,7 @@ flex-wrap: wrap;
     #silhouette2 {
         right:0rem;
         width: 13rem;
+
         top: -7rem;
         z-index: -1;
     
@@ -403,7 +416,7 @@ flex-wrap: wrap;
 /* LANDING SECTION */
 @media screen and (max-width: 710px) {
     .landing-section {
-        padding: 15rem 1.5rem 4rem 1.5rem;
+        padding: 4rem 1.5rem 4rem 1.5rem;
     }
    
     .team-section > header {
@@ -481,6 +494,7 @@ line-height: 1.85rem;
 }
 }
 @media screen and (min-width: 1440px) {
+    .landing-main
     .faq-section {
         padding: 10rem 20rem 12rem 20rem;
     }

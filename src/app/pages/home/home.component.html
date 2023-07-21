@@ -10,11 +10,11 @@
                 stroke="#7F6AFF" stroke-width="3.12971" />
         </svg></span>
     <div class="hero-wrapper">
-        <h1>Talentum Link</h1>
+        <div class="logoThumb"><img src="../../../assets/brand/logoCandidate.jpg"/></div>
         <p>{{ 'hero.hero-1' | translate }}</p>
         <div class="hero-buttons">
-            <a class="primary-btn">{{ 'navbar.nav6' | translate }}</a>
-            <a class="post-btn">{{ 'navbar.nav5' | translate }}</a>
+            <a target="_blank" href="https://form.jotform.com/231927354643056" class="primary-btn">{{ 'navbar.nav6' | translate }}</a>
+            <a [routerLink]="'make-job-post'"  class="post-btn">{{ 'navbar.nav5' | translate }}</a>
         </div>
     </div>
 
@@ -70,7 +70,7 @@
                 <div>
                     <h1>{{ 'landing.landing2' | translate }}</h1>
                 </div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScfHIlmqtRifROtwyWbsNCWe-LF-HtNebA1Tvbkk8WjTs44LA/viewform?usp=sf_link" class="primary-btn-2">{{ 'navbar.nav6' | translate }}</a>
+                <a target="_blank" href="https://form.jotform.com/231927354643056" class="primary-btn-2">{{ 'navbar.nav6' | translate }}</a>
             </div>
             <div>
                 <span><svg width="140" height="140" viewBox="0 0 140 140" fill="none"
@@ -93,7 +93,7 @@
                     <h1 id="adjust-h1">{{ 'landing.landing3' | translate }}</h1>
                     <br>
                 </div>
-                <a class="primary-btn-2">{{ 'navbar.nav5' | translate }}</a>
+                <a target="_blank" href="https://forms.gle/h3LoDkHMHtEtdfxx9" class="primary-btn-2">{{ 'navbar.nav5' | translate }}</a>
             </div>
             <div>
                 <div class="help-wrapper">
@@ -187,7 +187,7 @@
 </section>
 
 <section class="team-section">
-    <header id="font" >Meet our team</header>
+    <header id="font" >{{ 'team.team1' | translate }}</header>
     <main>
         <div>
             <div>

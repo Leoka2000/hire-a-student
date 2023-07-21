@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "nav1": "Háza",
+    "nav1": "Kezdőlap",
     "nav2": "Kapcsolat",
     "nav3": "Hallgatók",
     "nav4": "Álláshírdetések",
@@ -8,9 +8,9 @@
     "nav6": "Álláshirdetés készítése"
   },
   "contact": {
-    "contact1": "Az én e-mail címem",
-    "contact2": "Az én telefonszámom",
-    "contact3": "Küldjön üzenetet nekem!",
+    "contact1": "Az mi e-mail címunk",
+    "contact2": "Az mi telefonszámunk",
+    "contact3": "Küldjön üzenetet nekünk!",
     "contact4": "Név",
     "contact5": "A teljes névnek legalább 3 karakterből kell állnia",
     "contact6": "Email cím",
@@ -42,7 +42,15 @@
     "electrical-engineering": "Villamosmérnöki",
     "design": "Design",
     "marketing": "Kereskedelem és marketing",
-    "life-sciences": "Élettudományok"
+    "life-sciences": "Élettudományok",
+    "list": {
+      "email": "Email:",
+      "degree": "Szakk:",
+      "description" : "Leírás:",
+        "cv": "Önéletrajz:",
+        "download": "Letöltés:"   
+        
+      }
   },
   "hero": {
     "hero-1": "Találd a tehetségét",
@@ -79,11 +87,19 @@
   "advertisements" : {
     "jobs:": "Legutóbbi álláshirdetések"
   },
+  "team": {
+    "team1": "Ismerje meg csapatunkat"
+  },
   "footer": {
     "footer1": "Regisztráljon ingyenesen",
     "footer2": "Iratkozzon fel!",
     "footer3": "Tekintse meg",
     "footer4": "feltételeket és szolgáltatásokat",
     "footer5": "Fejlesztő:"
-  }
+  },
+  "make-job-post": {
+    "make-job-post1": "Fontos információk a álláshírdetés űrlap kitöltése előtt!",
+    "make-job-post2": "A kérelem beküldése után e-mailben megküldjük Önnek a fizetéshez szükséges bankszámla információkat.",
+    "make-job-post3": "töltse ki az űrlapot"
+  } 
 }

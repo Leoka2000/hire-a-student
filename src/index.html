@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>VEGYENFEL</title>
+  <title>Megy a Meló</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -27,11 +27,48 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   
 
-  <script src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.42405" type="text/javascript"></script>
-<script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.42405" type="text/javascript"></script>
-<script src="https://cdn03.jotfor.ms/js/vendor/imageinfo.js?v=3.3.42405" type="text/javascript"></script>
-<script src="https://cdn01.jotfor.ms/file-uploader/fileuploader.js?v=3.3.42405"></script>
-<script src="https://cdn02.jotfor.ms/js/payments/validategateways.js?v=3.3.42405" type="text/javascript"></script>
+<!-- jotform API -->
+<script src="https://cdn02.jotfor.ms/static/prototype.forms.js?3.3.43495" type="text/javascript"></script>
+<script src="https://cdn03.jotfor.ms/static/jotform.forms.js?3.3.43495" type="text/javascript"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
+<script src="https://cdn01.jotfor.ms/js/vendor/imageinfo.js?v=3.3.43495" type="text/javascript"></script>
+<script src="https://cdn02.jotfor.ms/file-uploader/fileuploader.js?v=3.3.43495"></script>
+<script src="https://cdn03.jotfor.ms/js/payments/validategateways.js?v=3.3.43495" type="text/javascript"></script>
+<script type="text/javascript">	JotForm.newDefaultTheme = true;
+	JotForm.extendsNewTheme = false;
+	JotForm.singleProduct = false;
+	JotForm.newPaymentUIForNewCreatedForms = true;
+	JotForm.newPaymentUI = true;
+	JotForm.clearFieldOnHide="disable";
+	JotForm.submitError="jumpToFirstError";
+
+// FUNCTION THAT MAKES THE DRAG AND DROP WORK
+	JotForm.init(function(){
+	/*INIT-START*/
+      setTimeout(function() {
+          $('input_6').hint('e.g., 23');
+       }, 20);
+if (window.JotForm && JotForm.accessible) $('input_7').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_10').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_12').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_11').setAttribute('tabindex',0);
+      JotForm.alterTexts(undefined);
+      setTimeout(function() {
+          JotForm.initMultipleUploads();
+      }, 2);
+	/*INIT-END*/
+	});
+// FUNCTION THAT MAKES THE DRAG AND DROP WORK
+
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Fontos fizetesi informaciok","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"teljesNev","qid":"3","text":"Teljes nev \u002F full name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"example@example.com","text":"Email","type":"control_email"},null,{"description":"","name":"telefonszamA","qid":"6","subLabel":"ezt az adatot bizalmasan kezelik","text":"Telefonszam a WhatsApp-hoz \u002F Telephone number for WhatsApp","type":"control_number"},{"description":"","name":"szigVagy","qid":"7","subLabel":"ezt az adatot bizalmasan kezelik","text":"SZIG vagy Cegjegyzekszam","type":"control_textbox"},{"description":"","name":"mireValo","qid":"8","text":"Mire valo ez a munkakor? \u002F What is job this for?","type":"control_checkbox"},{"description":"","name":"mennyitHajlando","qid":"9","subLabel":"","text":"Mennyit hajlando fizetni a diakert? ","type":"control_dropdown"},{"description":"","name":"aMunkakor","qid":"10","subLabel":"","text":"a munkakor \u002F Job title","type":"control_textbox"},{"description":"","name":"aPozicio","qid":"11","subLabel":"","text":"A pozicio feladatainak es kovetelmenyeinek leirasa \u002F Describe the responsibilities and requirements of the position ","type":"control_textarea"},{"description":"","name":"Irja","qid":"12","subLabel":"","text":" Irja le a pozicio elonyeit \u002F Describe the benefits of the position.","type":"control_textarea"},null,{"description":"","name":"kepFeltoltese","qid":"14","subLabel":"Ha rendelkezik barmilyen keppel a poziciorol, nyugodtan kuldje el \u002F If you have any image related to the position, feel free to send it.","text":"Kep feltoltese \u002F picture upload","type":"control_fileupload"},{"description":"","name":"elolvastamEs","qid":"15","subLabel":"","text":"Elolvastam es elfogadom a szolgaltatasi felteteleket \u002F I have read and accept the terms of service.","type":"control_dropdown"},null,{"name":"heading17","qid":"17","text":"Tegyen allashirdetest - Make a job post ","type":"control_head"},{"name":"Important","qid":"18","text":" Important payment information","type":"control_head"},null,{"name":"divider","qid":"20","text":"Divider","type":"control_divider"},{"name":"heading21","qid":"21","text":"","type":"control_head"},{"name":"heading22","qid":"22","text":"Important payment information","type":"control_head"}]);}, 20); 
+</script>
+<style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.43495&themeRevisionID=63e6805f64383509e31513f4"/>
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.43495" />
+<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.43495" />
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/stylebuilder/donationBox.css?v=3.3.43495">
+<!-- jotform API -->
 
 <!-- MBBOOSTRAP -->
 

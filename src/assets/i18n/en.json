@@ -30,19 +30,27 @@
     "electrical-engineering": "Electrical engineering",
     "design": "Design",
     "marketing": "Marketing and commerce",
-    "life-sciences": "Life sciences"
-},
-"contact": {
-  "contact1": "My email address",
-  "contact2": "My phone number",
-  "contact3": "Send me a message!",
-  "contact4": "Name",
-  "contact5": "The full name must be at least 3 characters long",
-  "contact6": "Email address",
-  "contact7": "Enter a valid email",
-  "contact8": "Write your message",
-  "contact9": "Message is required",
-  "contact10": "Send message"
+    "life-sciences": "Life sciences",
+    "list": {
+      "email": "Email:",
+      "degree": "Degree:",
+      "description" : "Description:",
+        "cv": "CV:",
+        "download": "Download:"
+        
+      }
+  },
+  "contact": {
+    "contact1": "Our email address",
+    "contact2": "Our phone number",
+    "contact3": "Send us a message!",
+    "contact4": "Name",
+    "contact5": "The full name must be at least 3 characters long",
+    "contact6": "Email address",
+    "contact7": "Enter a valid email",
+    "contact8": "Write your message",
+    "contact9": "Message is required",
+    "contact10": "Send message"
   },
   "hero": {
     "hero-1": "Find your talent!",
@@ -79,12 +87,20 @@
   "advertisements": {
     "jobs": "Latest job positions"
   },
+  "team": {
+    "team1": "Meet our team"
+  },
   "footer": {
     "footer1": "Register for free",
     "footer2": "Sign up!",
     "footer3": "Check out the",
     "footer4": "terms and services",
     "footer5": "Developed by"
+  },
+  "make-job-post": {
+    "make-job-post1": "Important information before filling out the job application form!",
+    "make-job-post2": "After submitting this form, we will email you with the bank account information to where you should make the payment.",
+    "make-job-post3": "Fill the form"
   }
-}
 
+}
