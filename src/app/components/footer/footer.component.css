@@ -47,7 +47,7 @@ color: rgb(223, 223, 223);
 }
 .footer-2  > p {
     font-size: 16px; 
-    margin-bottom: 0.32rem;
+    margin-bottom: 0.6rem;
 }
 p {
     margin: 0;
@@ -76,11 +76,10 @@ p {
     border-color: #fff;
     }
     .footer-3 > img {
-        filter: brightness(.95);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 255, 255, 0.2);
-width: 10rem;
-border-radius: 6px;
-height: 6rem;
+       
+      object-fit: cover; 
+width: 20rem;
+height: 12rem;
     }
 
     .footer-leo {
@@ -113,5 +112,11 @@ height: 6rem;
         margin: 0 0.7rem;
         font-size: 0.9rem;
     }
+    .footer-3 > img {
+       
+         object-fit: contain;
+  width: 18rem;
+  height: 12rem;
+      }
     
 }

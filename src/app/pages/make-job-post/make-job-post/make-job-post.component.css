@@ -43,8 +43,9 @@ font-family: Space Grotesk,sans-serif;
     }
     .primary-btn-2 {
         color: #fff;
-        
+        text-align: center;
         width:86%;
+        max-width: 30rem;
         transform-style: preserve-3d;
         background-color: #7f6aff;
         border: 1px solid #7f6aff;
@@ -93,6 +94,7 @@ justify-content: center;
         line-height: 1.5rem;
         }
         .primary-btn-2 {
-            width: 100%
+            width: 100%;
+            font-size: 0.9rem;
         }
 }

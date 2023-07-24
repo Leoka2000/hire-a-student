@@ -1,5 +1,5 @@
 .hero-section {
-    padding: 24rem 0 22rem 0;
+    padding: 15rem 0 15rem 0.25rem;
     position: relative;
 }
 
@@ -39,10 +39,8 @@
 .logoThumb > img {
     width: 100%;
     object-fit: cover;
-    border-radius: 6.5px;
 height: auto;
-box-shadow: 0 2px 4px #0000004d,0 0 10px #fff3;
-border: #535353 .2px solid;
+
 }
 .hero-wrapper>h1 {
     font-size: 3.5rem;
@@ -328,7 +326,15 @@ flex-wrap: wrap;
     border: #535353 .7px solid;
     filter: brightness(0.85);
 }
-
+@media screen and (min-width:1650px) {
+    .hero-section {
+        padding: 14rem 0 24rem 1rem;
+    }
+    #silhouette {
+        top: 47rem;
+} 
+}
+    
 @media screen and (max-width:1016px) {
     .hero-section {
         padding: 18rem 0 18rem 0;
@@ -376,7 +382,7 @@ flex-wrap: wrap;
     }
     /* FAQ */
     #silhouette {
-        top: 42rem;
+        top: 50rem;
         left: -10rem;
     }
     
@@ -420,7 +426,7 @@ flex-wrap: wrap;
     }
    
     .team-section > header {
-   
+        
         font-size: 2rem;
      line-height: 2.5rem;
       
@@ -459,6 +465,13 @@ flex-wrap: wrap;
 
     .landing-main>div>a {
         font-size: 0.9rem;
+    }
+    
+    .logoThumb > img {
+        width: 90%;
+        object-fit: cover;
+    height: auto;
+    
     }
     
 }
