@@ -139,6 +139,7 @@ li>a:hover {
     border-radius: 100%;
     color: #dfdfdf;
     cursor: pointer;
+    transition: 0.15s;
 }
 
 #insta:hover {

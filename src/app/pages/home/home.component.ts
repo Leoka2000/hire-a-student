@@ -1,6 +1,7 @@
 import { Component, ElementRef } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
+// import { ScrollService } from 'src/app/scroll-service/scroll-service.module';
 
 
 @Component({
@@ -10,7 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class HomeComponent {
   constructor(
-    private viewportScroller: ViewportScroller,
+    public viewportScroller: ViewportScroller,
     private elementRef: ElementRef,
     public translate: TranslateService
   ) {}

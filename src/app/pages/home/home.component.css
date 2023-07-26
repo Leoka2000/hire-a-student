@@ -114,6 +114,7 @@ height: auto;
     font-family: 'Space Grotesk', sans-serif;
     border-radius: 76px;
     padding: 26px 38px;
+    font-weight: 700;
     cursor: pointer;
     font-size: 18px;
     line-height: 1.111em;
@@ -287,13 +288,13 @@ height: auto;
 }
 /* TEAM-SECTION */ /* TEAM-SECTION */ /* TEAM-SECTION *//* TEAM-SECTION *//* TEAM-SECTION */
 .team-section {
-    padding: 0 0 5rem 0;
+    padding: 1rem 0 5rem 0;
 }
 .team-section > header {
     text-align: center;
     font-size: 3rem;
     font-weight: 800;
-    padding-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .team-section > main {

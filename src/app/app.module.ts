@@ -43,6 +43,8 @@ import { DesignComponent } from './pages/students/design/design.component';
 import { PublicRelationsComponent } from './pages/students/public-relations/public-relations.component';
 import { ElectricalEngineeringComponent } from './pages/students/electrical-engineering/electrical-engineering.component';
 import { MarketingComponent } from './pages/students/marketing/marketing.component';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -84,9 +86,11 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     PublicRelationsComponent,
     ElectricalEngineeringComponent,
     MarketingComponent,
+   
   ],
   imports: [
     BrowserModule,
+    ScrollingModule,
     AppRoutingModule,
     MatToolbarModule,
     BrowserAnimationsModule,
@@ -103,6 +107,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
         deps: [HttpClient]
       }
     })
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

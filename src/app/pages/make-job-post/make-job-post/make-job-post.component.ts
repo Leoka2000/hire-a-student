@@ -1,5 +1,6 @@
-import { Component, ElementRef } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
+
 
 @Component({
   selector: 'app-make-job-post',
@@ -10,7 +11,8 @@ import { ViewportScroller } from '@angular/common';
 export class MakeJobPostComponent {
     constructor(
       private viewportScroller: ViewportScroller,
-      private elementRef: ElementRef
+      private elementRef: ElementRef,
+     
       ) {} 
     
       scrollTo(elementId: string): void {
@@ -19,6 +21,7 @@ export class MakeJobPostComponent {
           element.scrollIntoView({ behavior: 'smooth' });
         }
       }
+     
     }
     
 

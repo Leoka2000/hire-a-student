@@ -23,7 +23,7 @@
         <br class="nav-br">
         <br class="nav-br">
         <li [ngClass]="{ 'active': isRouteActive('home') }"><a (click)="closeNavbar()" [routerLink]="'home'">{{ 'navbar.nav1' | translate }}</a></li>
-        <li [ngClass]="{ 'active': isRouteActive('contact') }"><a (click)="closeNavbar()" target="_blank" [routerLink]="'contact'">{{ 'navbar.nav2' | translate }}</a></li>
+        <li [ngClass]="{ 'active': isRouteActive('contact') }"><a (click)="closeNavbar()" [routerLink]="'contact'">{{ 'navbar.nav2' | translate }}</a></li>
         <li [ngClass]="{ 'activez': isStudentRouteActive() }" class="nav-item dropdown">
           <a id="students" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">{{ 'navbar.nav3' | translate }}</a>

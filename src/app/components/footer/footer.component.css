@@ -65,8 +65,8 @@ p {
     border-radius: 76px;
     padding: 13px 28px;
     cursor: pointer;
-    font-size: 18px;
-  
+    font-weight: 800;
+    font-size: 14.5px;
     border: 1px solid #fff;
     transition: border-color .3s, transform .3s, background-color .3s, color .3s;
     }
