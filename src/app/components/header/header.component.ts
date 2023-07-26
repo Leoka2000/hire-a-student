@@ -1,4 +1,4 @@
-import { Component, ElementRef, Renderer2 } from '@angular/core';
+import { Component, ElementRef, Renderer2, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -45,5 +45,17 @@ export class HeaderComponent {
 
   getCurrentLanguage(): string {
     return this.translate.currentLang;
+  }
+  
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent): void {
+    const navbarCollapse = this.elementRef.nativeElement.querySelector('.navbar-collapse');
+    const dropdownToggle = this.elementRef.nativeElement.querySelector('.dropdown-toggle');
+    const isClickInsideNavbar = navbarCollapse.contains(event.target);
+    const isClickInsideDropdownToggle = dropdownToggle.contains(event.target);
+
+    if (!isClickInsideNavbar && !isClickInsideDropdownToggle && navbarCollapse.classList.contains('show')) {
+      navbarCollapse.classList.remove('show');
+    }
   }
 }

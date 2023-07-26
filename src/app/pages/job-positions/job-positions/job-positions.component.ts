@@ -1,5 +1,4 @@
 import { Component, ElementRef } from '@angular/core';
-import { SharedModule } from '../../../shared/shared.module';
 import { TranslateService } from '@ngx-translate/core';
 import { ViewportScroller } from '@angular/common';
 

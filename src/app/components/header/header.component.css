@@ -321,6 +321,11 @@ li>a:hover {
         font-size: 14px;
      
       }
-
+      
+select,
+option {
+height: 2.5rem;
+font-size: 12px;
+width: 4.5rem;
     } 
-
+}
