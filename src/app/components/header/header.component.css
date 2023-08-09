@@ -16,7 +16,9 @@
     font-size: 14.5px;
 
 }
-
+.navbar.fixed-top.navbar-dark, .dropdown-menu.bg-dark {
+    background-color: #0c0c0c !important;
+  }
 .logo-thumb {
     height: 130px;
     width: 130px;

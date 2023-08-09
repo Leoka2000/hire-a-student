@@ -3,12 +3,12 @@
     "nav1": "Kezdőlap",
     "nav2": "Kapcsolat",
     "nav3": "Hallgatók",
-    "nav4": "Álláshírdetések",
+    "nav4": "Álláshirdetések",
     "nav5": "Feliratkozás diákként",
     "nav6": "Álláshirdetés készítése"
   },
   "contact": {
-    "contact1": "Az mi e-mail címunk",
+    "contact1": "Az mi e-mail címünk",
     "contact2": "Az mi telefonszámunk",
     "contact3": "Küldjön üzenetet nekünk!",
     "contact4": "Név",
@@ -20,20 +20,31 @@
     "contact10": "Üzenet küldése"
   },
   "students": {
-    "law": "Jogtudományok",
-    "health-care": "Egészségtudományok",
+    "law": "Állam- és Jogtudományok",
+    "health-care": "Általános Orvostudományok",
     "human-sciences": "Bölcsészettudományok",
-    "finance-business": "Pénzügy és üzlet",
-    "pedagogy": "Pedagógia",
-    "it": "Információ technológia (IT)",
+    "health-sciences": "Egészségtudományok",
+    "destistry": "Fogorvostudományok",
+    "economy": "Gazdaságtudományok",
+    "pedagogy": "Gyermeknevelés és Gyógypedagógia",
+    "pharmacy": "Gyógyszerésztudomány",
+    "informatics": "Informatika",
+    "agriculture": "Mezőgazdaság",
     "food-sciences": "Élelmiszertudományok",
+    "environmental-management": "Környezetgazdálkodás",
+    "Engineering": "Műszakok",
+    "science-and-technology": "Természettudomány és Technológia",
+    "music": "Zeneművészet",
+
+
+    "finance-business": "Pénzügy és üzlet",
+    "it": "Információ technológia (IT)",
     "architecture": "Építészmérnöki",
     "environmental-engineering": "Környezetmérnöki",
     "mechanical-engineering": "Gépészmérnöki",
     "mechatronics-engineering": "Mechatronikai mérnöki",
     "biology-biochemical-engineering": "Biológia és Biomérnöki",
     "chemistry-chemical-engineering": "Kémia és vegyészmérnöki",
-    "agriculture": "Mezőgazdaság",
     "mathematics": "Matematika",
     "natural-sciences": "Természettudományok",
     "physics": "Fizika",
@@ -53,7 +64,7 @@
       }
   },
   "hero": {
-    "hero-1": "Találd a tehetségét",
+    "hero-1": "A munka gyümölcse",
     "jobs":"Legújabb álláshirdetések",
     "jobs1": "Íme néhány a weboldalon közzétett legújabb állásajánlatok közül. Jelenleg nincsenek közzétett állásajánlatok.",
     "jobs2": "Kategória:",
@@ -64,24 +75,24 @@
   },
   "landing": {
     "landing1": "Tekintse meg, mit teszünk azért, hogy a diákok közelebb kerüljenek a magyar munkaerőpiachoz!",
-    "landing2": "Ön cég vagy magánszemély és szüksége van valakire, akit felvehet szakmai gyakorlatra vagy álláshelyre?",
-    "landing3": "Állást vagy szakmai gyakorlatot keres?",
+    "landing2": "Ön cég vagy magánszemély és szüksége van valakire, akit felvehet szakmai gyakorlatra vagy állás betöltésére?",
+    "landing3": "Állást vagy szakmai gyakorlatot keresel?",
     "landing4": "Kérdése van? Nézze meg a honlapon a gyakran ismételt kérdések rovatot!",
-    "landing-seemore": "Lásd még"
+    "landing-seemore": "Bővebben"
   },
   "faq": {
     "faq1": "Gyakran ismételt kérdések",
     "faq2": "Mennyibe kerül egy álláshirdetés közzététele?",
-    "faq3": "2000 Ft-ba kerül egy állás meghirdetése a platformon.",
-    "faq4": "Az egyetemi hallgatóknak fizetniük szükséges a feliratkozáshoz?",
+    "faq3": "10000 Ft-ba kerül egy állás meghirdetése a platformon.",
+    "faq4": "Az egyetemi hallgatóknak  kell fizetniük  a feliratkozásért?",
     "faq5": "Nem. A platform ingyenes az alapképzésen résztvevő egyetemi hallgatók számára. Iratkozzon fel a platformra",
     "faq5.1": "ide kattintva.",
-    "faq6": "Bármilyen egyetemi hallgató regisztrálhat? ",
+    "faq6": "Bármilyen egyetemi hallgató regisztrálhat?",
     "faq7": "Igen, amennyiben Ön rendszeresen állandó hallgatója bármely magyar egyetemnek. Ez az alapképzésben résztvevő egyetemi hallgatókra vonatkozik. A regisztrációhoz",
     "faq7.1": "kattintson ide.",
     "faq8": "Találtam egy állást. Hogyan léphetek kapcsolatba a céggel?",
     "faq9": "Az",
-    "faq9.1": "'Álláshírdetések'",
+    "faq9.1": "'Álláshirdetések'",
     "faq9.2": "fülön minden állásajánlathoz tartozik egy e-mail cím. Csupán küldjön egy e-mailt annak a vállalkozásnak, amelyik ezt az állást kínálja."
   },
   "advertisements" : {
@@ -91,15 +102,15 @@
     "team1": "Ismerje meg csapatunkat"
   },
   "footer": {
-    "footer1": "Regisztráljon ingyenesen",
-    "footer2": "Iratkozzon fel!",
+    "footer1": "Regisztrálj ingyenesen",
+    "footer2": "Iratkozz fel!",
     "footer3": "Tekintse meg",
     "footer4": "feltételeket és szolgáltatásokat",
     "footer5": "Fejlesztő:"
   },
   "make-job-post": {
-    "make-job-post1": "Fontos információk az álláshírdetés űrlap kitöltése előtt!",
-    "make-job-post2": "A kérelem beküldése után e-mailben megküldjük Önnek a fizetéshez szükséges bankszámla információkat.",
-    "make-job-post3": "töltse ki az űrlapot"
+    "make-job-post1": "Fontos információk az álláshirdetés feladása előtt!",
+    "make-job-post2": "A kérelem beküldése után e-mailben megküldjük Önnek a fizetéshez szükséges bankszámla adatokat.",
+    "make-job-post3": "Űrlap kitöltése"
   } 
 }

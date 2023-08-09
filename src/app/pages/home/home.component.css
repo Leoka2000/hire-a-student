@@ -239,7 +239,7 @@ height: auto;
 .faq-section {
     padding: 5rem 6rem 2rem 6rem;
     position: relative;
-    background-color: #292929;
+    background-color: #0c0c0c;
 }
 
 .faq-section>div>header {
@@ -355,6 +355,12 @@ flex-wrap: wrap;
         top: -7rem;
         z-index: -1;
     
+    }
+}
+@media screen and (max-width:900px) {
+    #silhouette {
+        top: 44rem;
+        left: -10rem;
     }
 }
 @media screen and (max-width: 648px) {
