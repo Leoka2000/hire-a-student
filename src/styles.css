@@ -85,12 +85,13 @@ position: relative;
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, fixed;
     border-bottom: 1px solid #393939;
+	background-color: #0c0c0c;
 }
 .students-section {
 	padding: 8rem 0 8rem 0;
 	display: flex;
 justify-content: center;
-
+background-color: #0c0c0c;
 align-items: center;
 }
 #students-h1 {
@@ -98,6 +99,32 @@ align-items: center;
 	text-align: center;
 }
 
+
+#primary-btn-2 {
+	color: #fff;
+	text-align: center;
+	max-width: 30rem;
+	transform-style: preserve-3d;
+	background-color: #7f6aff;
+	border: 1px solid #7f6aff;
+	border-radius: 76px;
+   
+	cursor: pointer;
+	padding: 18px 70px;
+   font-size: 18px;
+	font-weight: 700;
+	line-height: 1.111em;
+	text-decoration: none;
+	font-family: 'Space Grotesk', sans-serif;
+	transition: border-color .3s, background-color .3s, transform .3s, color .3s;
+}
+
+#primary-btn-2:hover {
+	color: #fff;
+	background-color: #7d42fb;
+	border-color: #7d42fb;
+	transform: translate3d(0, -3px, .01px);
+}
 @media screen and (max-width:900px) {
 	.padded-section {
 		background-size: 100rem;
