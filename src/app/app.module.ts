@@ -25,7 +25,7 @@ import { HumanSciencesComponent } from './pages/students/human-sciences/human-sc
 import { EconomicsBusinessComponent } from './pages/students/economics-business/economics-business.component';
 import { PedagogyComponent } from './pages/students/pedagogy/pedagogy.component';
 import { ItComponent } from './pages/students/it/it.component';
-import { FoodSciencesComponent } from './pages/students/food-sciences/food-sciences.component';
+
 import { ArchitectureComponent } from './pages/students/architecture/architecture.component';
 import { MechatronicalEngineeringComponent } from './pages/students/mechatronical-engineering/mechatronical-engineering.component';
 import { BiologyBiochemicalEngineeringComponent } from './pages/students/biology-biochemical-engineering/biology-biochemical-engineering.component';
@@ -61,7 +61,6 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     EconomicsBusinessComponent,
     PedagogyComponent,
     ItComponent,
-    FoodSciencesComponent,
     ArchitectureComponent,
     MechatronicalEngineeringComponent,
     BiologyBiochemicalEngineeringComponent,
