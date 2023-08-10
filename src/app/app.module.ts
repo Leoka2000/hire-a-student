@@ -27,16 +27,12 @@ import { PedagogyComponent } from './pages/students/pedagogy/pedagogy.component'
 import { ItComponent } from './pages/students/it/it.component';
 import { FoodSciencesComponent } from './pages/students/food-sciences/food-sciences.component';
 import { ArchitectureComponent } from './pages/students/architecture/architecture.component';
-import { EnvironmentalEngineeringComponent } from './pages/students/environmental-engineering/environmental-engineering.component';
-import { MechanicalEngineeringComponent } from './pages/students/mechanical-engineering/mechanical-engineering.component';
 import { MechatronicalEngineeringComponent } from './pages/students/mechatronical-engineering/mechatronical-engineering.component';
 import { BiologyBiochemicalEngineeringComponent } from './pages/students/biology-biochemical-engineering/biology-biochemical-engineering.component';
 import { ChemistryChemicalEngineeringComponent } from './pages/students/chemistry-chemical-engineering/chemistry-chemical-engineering.component';
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
-
-
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
-import { MathematicsComponent } from './pages/students/mathematics/mathematics.component';
+
 import { LifeSciencesComponent } from './pages/students/life-sciences/life-sciences.component';
 import { DesignComponent } from './pages/students/design/design.component';
 import { ElectricalEngineeringComponent } from './pages/students/electrical-engineering/electrical-engineering.component';
@@ -67,14 +63,11 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     ItComponent,
     FoodSciencesComponent,
     ArchitectureComponent,
-    EnvironmentalEngineeringComponent,
-    MechanicalEngineeringComponent,
     MechatronicalEngineeringComponent,
     BiologyBiochemicalEngineeringComponent,
     ChemistryChemicalEngineeringComponent,
     AgricultureComponent,
     PrivateClassesComponent,
-    MathematicsComponent,
     LifeSciencesComponent,
     DesignComponent,
     ElectricalEngineeringComponent,

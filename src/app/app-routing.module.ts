@@ -13,13 +13,11 @@ import { PedagogyComponent } from './pages/students/pedagogy/pedagogy.component'
 import { ItComponent } from './pages/students/it/it.component';
 import { FoodSciencesComponent } from './pages/students/food-sciences/food-sciences.component';
 import { ArchitectureComponent } from './pages/students/architecture/architecture.component';
-import { EnvironmentalEngineeringComponent } from './pages/students/environmental-engineering/environmental-engineering.component';
-import { MechanicalEngineeringComponent } from './pages/students/mechanical-engineering/mechanical-engineering.component';
 import { MechatronicalEngineeringComponent } from './pages/students/mechatronical-engineering/mechatronical-engineering.component';
 import { BiologyBiochemicalEngineeringComponent } from './pages/students/biology-biochemical-engineering/biology-biochemical-engineering.component';
 import { ChemistryChemicalEngineeringComponent } from './pages/students/chemistry-chemical-engineering/chemistry-chemical-engineering.component';
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
-import { MathematicsComponent } from './pages/students/mathematics/mathematics.component';
+
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
 import { ElectricalEngineeringComponent } from './pages/students/electrical-engineering/electrical-engineering.component';
 import { DesignComponent } from './pages/students/design/design.component';
@@ -39,13 +37,10 @@ const routes: Routes = [
   {path: 'students/it', component: ItComponent},
   {path: 'students/food-sciences', component: FoodSciencesComponent},
   {path: 'students/architecture', component: ArchitectureComponent},
-  {path: 'students/environmental-engineering', component: EnvironmentalEngineeringComponent},
-  {path: 'students/mechanical-engineering', component: MechanicalEngineeringComponent},
   {path: 'students/mechatronics-egineering', component: MechatronicalEngineeringComponent},
   {path: 'students/biology-biochemical-engineering', component: BiologyBiochemicalEngineeringComponent},
   {path: 'students/chemistry-chemical-engineering', component: ChemistryChemicalEngineeringComponent},
   {path: 'students/agriculture', component: AgricultureComponent},
-  {path: 'students/mathematics', component: MathematicsComponent},
   {path: 'students/private-classes', component: PrivateClassesComponent},
   {path: 'students/electrical-engineering', component: ElectricalEngineeringComponent},
   {path: 'students/design', component: DesignComponent},
