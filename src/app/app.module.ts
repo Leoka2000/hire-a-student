@@ -28,7 +28,7 @@ import { ItComponent } from './pages/students/it/it.component';
 
 import { ArchitectureComponent } from './pages/students/architecture/architecture.component';
 import { MechatronicalEngineeringComponent } from './pages/students/mechatronical-engineering/mechatronical-engineering.component';
-import { BiologyBiochemicalEngineeringComponent } from './pages/students/biology-biochemical-engineering/biology-biochemical-engineering.component';
+
 import { ChemistryChemicalEngineeringComponent } from './pages/students/chemistry-chemical-engineering/chemistry-chemical-engineering.component';
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
@@ -63,7 +63,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     ItComponent,
     ArchitectureComponent,
     MechatronicalEngineeringComponent,
-    BiologyBiochemicalEngineeringComponent,
+
     ChemistryChemicalEngineeringComponent,
     AgricultureComponent,
     PrivateClassesComponent,

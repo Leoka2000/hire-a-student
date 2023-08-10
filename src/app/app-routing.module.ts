@@ -14,7 +14,7 @@ import { ItComponent } from './pages/students/it/it.component';
 
 import { ArchitectureComponent } from './pages/students/architecture/architecture.component';
 import { MechatronicalEngineeringComponent } from './pages/students/mechatronical-engineering/mechatronical-engineering.component';
-import { BiologyBiochemicalEngineeringComponent } from './pages/students/biology-biochemical-engineering/biology-biochemical-engineering.component';
+
 import { ChemistryChemicalEngineeringComponent } from './pages/students/chemistry-chemical-engineering/chemistry-chemical-engineering.component';
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
 
@@ -37,7 +37,7 @@ const routes: Routes = [
   {path: 'students/it', component: ItComponent},
   {path: 'students/architecture', component: ArchitectureComponent},
   {path: 'students/mechatronics-egineering', component: MechatronicalEngineeringComponent},
-  {path: 'students/biology-biochemical-engineering', component: BiologyBiochemicalEngineeringComponent},
+
   {path: 'students/chemistry-chemical-engineering', component: ChemistryChemicalEngineeringComponent},
   {path: 'students/agriculture', component: AgricultureComponent},
   {path: 'students/private-classes', component: PrivateClassesComponent},
