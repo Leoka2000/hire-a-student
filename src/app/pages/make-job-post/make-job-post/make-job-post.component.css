@@ -57,31 +57,11 @@ align-items: center;
         width:100%;
         justify-content: start;
     }
-    .primary-btn-2 {
-        color: #fff;
-        text-align: center;
-        width:86%;
-        max-width: 30rem;
-        transform-style: preserve-3d;
-        background-color: #7f6aff;
-        border: 1px solid #7f6aff;
-        border-radius: 76px;
-       
-        cursor: pointer;
-        padding: 18px 70px;
-       font-size: 18px;
-        font-weight: 700;
-        line-height: 1.111em;
-        text-decoration: none;
-        font-family: 'Space Grotesk', sans-serif;
-        transition: border-color .3s, background-color .3s, transform .3s, color .3s;
-    }
+    
     
     .primary-btn-2:hover {
-        color: #fff;
-        background-color: #7d42fb;
-        border-color: #7d42fb;
-        transform: translate3d(0, -3px, .01px);
+        
+        transform: translate3d(none);
     }
 
 
@@ -94,7 +74,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     padding: 2rem 2rem 2rem 2rem;
-    box-shadow: 0px 5px 10px 0px rgba(187, 68, 255, 0.7);
+    box-shadow: 0px 5px 10px 0px rgba(91, 73, 255, 0.7);
 border-radius: 7px;
 transition:0.3s;
 }
@@ -152,7 +132,7 @@ font-size: 1rem;
 
 @media screen and (max-width: 600px) {
     .pay-info-section  {
-        padding: 13rem 1.5rem 10rem 1.5rem;
+        padding: 13rem 1.5rem 5rem 1.5rem;
     } 
     .pay-info-section > main > h2 {
         font-size: 1.7rem;
@@ -183,7 +163,7 @@ font-size: 1rem;
 .pay-info-section {
    flex-direction: column;
    align-items: center;
-   gap: 2rem;
+   gap: 3rem
 
 }
 .package > div > header > h1 {

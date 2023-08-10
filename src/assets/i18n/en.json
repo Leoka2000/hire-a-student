@@ -4,7 +4,7 @@
     "nav2": "Contact",
     "nav3": "Students",
     "nav4": "Job postings",
-    "nav5": "Subscribe as a student",
+    "nav5": "Subscribe as a job seeker",
     "nav6": "Make a job post"
   },
   "students": {
@@ -53,7 +53,7 @@
     "contact10": "Send message"
   },
   "hero": {
-    "hero-1": "Find your talent!",
+    "hero-1": "The fruits of labour",
     "jobs": "Latest job positions",
     "jobs1": "Here are some of the latest job positions published on the website. Currently there are no job positions published.",
     "jobs2": "Category:",
