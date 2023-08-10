@@ -33,18 +33,15 @@ import { MechatronicalEngineeringComponent } from './pages/students/mechatronica
 import { BiologyBiochemicalEngineeringComponent } from './pages/students/biology-biochemical-engineering/biology-biochemical-engineering.component';
 import { ChemistryChemicalEngineeringComponent } from './pages/students/chemistry-chemical-engineering/chemistry-chemical-engineering.component';
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
-import { NaturalSciencesComponent } from './pages/students/natural-sciences/natural-sciences.component';
-import { PhysicsComponent } from './pages/students/physics/physics.component';
+
+
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
 import { MathematicsComponent } from './pages/students/mathematics/mathematics.component';
-import { PsychologyComponent } from './pages/students/psychology/psychology.component';
 import { LifeSciencesComponent } from './pages/students/life-sciences/life-sciences.component';
 import { DesignComponent } from './pages/students/design/design.component';
-import { PublicRelationsComponent } from './pages/students/public-relations/public-relations.component';
 import { ElectricalEngineeringComponent } from './pages/students/electrical-engineering/electrical-engineering.component';
-import { MarketingComponent } from './pages/students/marketing/marketing.component';
 import { ScrollingModule } from '@angular/cdk/scrolling';
-import { RouterModule } from '@angular/router';
+
 
 
 
@@ -76,16 +73,11 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     BiologyBiochemicalEngineeringComponent,
     ChemistryChemicalEngineeringComponent,
     AgricultureComponent,
-    NaturalSciencesComponent,
-    PhysicsComponent,
     PrivateClassesComponent,
     MathematicsComponent,
-    PsychologyComponent,
     LifeSciencesComponent,
     DesignComponent,
-    PublicRelationsComponent,
     ElectricalEngineeringComponent,
-    MarketingComponent,
    
   ],
   imports: [

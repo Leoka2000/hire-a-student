@@ -20,13 +20,9 @@ import { BiologyBiochemicalEngineeringComponent } from './pages/students/biology
 import { ChemistryChemicalEngineeringComponent } from './pages/students/chemistry-chemical-engineering/chemistry-chemical-engineering.component';
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
 import { MathematicsComponent } from './pages/students/mathematics/mathematics.component';
-import { NaturalSciencesComponent } from './pages/students/natural-sciences/natural-sciences.component';
-import { PhysicsComponent } from './pages/students/physics/physics.component';
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
-import { PsychologyComponent } from './pages/students/psychology/psychology.component';
 import { ElectricalEngineeringComponent } from './pages/students/electrical-engineering/electrical-engineering.component';
 import { DesignComponent } from './pages/students/design/design.component';
-import { MarketingComponent } from './pages/students/marketing/marketing.component';
 import { LifeSciencesComponent } from './pages/students/life-sciences/life-sciences.component';
 
 
@@ -50,13 +46,9 @@ const routes: Routes = [
   {path: 'students/chemistry-chemical-engineering', component: ChemistryChemicalEngineeringComponent},
   {path: 'students/agriculture', component: AgricultureComponent},
   {path: 'students/mathematics', component: MathematicsComponent},
-  {path: 'students/natural-sciences', component: NaturalSciencesComponent},
-  {path: 'students/physics', component: PhysicsComponent},
   {path: 'students/private-classes', component: PrivateClassesComponent},
-  {path: 'students/psychology', component: PsychologyComponent},
   {path: 'students/electrical-engineering', component: ElectricalEngineeringComponent},
   {path: 'students/design', component: DesignComponent},
-  {path: 'students/marketing', component: MarketingComponent},
   {path: 'students/life-sciences', component: LifeSciencesComponent},
 
   {path: '', redirectTo: 'home', pathMatch: 'full'}, // to set home as default page
