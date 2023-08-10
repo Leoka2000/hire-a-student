@@ -9,19 +9,36 @@
   },
   "students": {
     "law": "Law",
-    "health-care": "Health care",
-    "human-sciences": "Human sciences",
-    "finance-business": "Finance and business",
-    "pedagogy": "Pedagogy",
-    "it": "Information technology (IT)",
+    "health-care": "Medicine",
+    "human-sciences": "Humanities",
+    "health-sciences": "Health Sciences",
+    "destistry": "Dentistry",
+    "economy": "Economics and Business",
+    "pedagogy": "Child and Special Needs Education",
+    "pharmacy": "Pharmacy",
+    "informatics": "Informatics",
+    "agriculture": "Agriculture, Food Sciences, and Environmental Management",
     "food-sciences": "Food sciences",
+    "environmental-management": "Environmental management",
+    "engineering": "engineering",
+    "science-and-technology": "Science and Technology",
+    "music": "Music",
+
+
+
+
+
+    "finance-business": "Finance and business",
+  
+    "it": "Information technology (IT)",
+   
     "architecture": "Architecture",
     "environmental-engineering": "Environmental engineering",
     "mechanical-engineering": "Mechanical engineering",
     "mechatronics-engineering": "Mechatronics engineering",
     "biology-biochemical-engineering": "Biology and biochemical engineering",
     "chemistry-chemical-engineering": "Chemistry and chemical engineering",
-    "agriculture": "Agriculture",
+
     "mathematics": "Mathematics",
     "natural-sciences": "Natural sciences",
     "physics": "Physics",
