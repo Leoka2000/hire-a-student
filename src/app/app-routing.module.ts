@@ -19,9 +19,9 @@ import { ChemistryChemicalEngineeringComponent } from './pages/students/chemistr
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
 
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
-import { ElectricalEngineeringComponent } from './pages/students/electrical-engineering/electrical-engineering.component';
+
 import { DesignComponent } from './pages/students/design/design.component';
-import { LifeSciencesComponent } from './pages/students/life-sciences/life-sciences.component';
+
 
 
 const routes: Routes = [
@@ -41,9 +41,8 @@ const routes: Routes = [
   {path: 'students/chemistry-chemical-engineering', component: ChemistryChemicalEngineeringComponent},
   {path: 'students/agriculture', component: AgricultureComponent},
   {path: 'students/private-classes', component: PrivateClassesComponent},
-  {path: 'students/electrical-engineering', component: ElectricalEngineeringComponent},
   {path: 'students/design', component: DesignComponent},
-  {path: 'students/life-sciences', component: LifeSciencesComponent},
+
 
   {path: '', redirectTo: 'home', pathMatch: 'full'}, // to set home as default page
   { path: '**', component: ErrorPageComponent }

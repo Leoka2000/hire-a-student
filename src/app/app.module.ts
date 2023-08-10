@@ -32,13 +32,8 @@ import { MechatronicalEngineeringComponent } from './pages/students/mechatronica
 import { ChemistryChemicalEngineeringComponent } from './pages/students/chemistry-chemical-engineering/chemistry-chemical-engineering.component';
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
-
-import { LifeSciencesComponent } from './pages/students/life-sciences/life-sciences.component';
 import { DesignComponent } from './pages/students/design/design.component';
-import { ElectricalEngineeringComponent } from './pages/students/electrical-engineering/electrical-engineering.component';
 import { ScrollingModule } from '@angular/cdk/scrolling';
-
-
 
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -67,9 +62,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     ChemistryChemicalEngineeringComponent,
     AgricultureComponent,
     PrivateClassesComponent,
-    LifeSciencesComponent,
     DesignComponent,
-    ElectricalEngineeringComponent,
    
   ],
   imports: [
@@ -91,7 +84,6 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
         deps: [HttpClient]
       }
     })
-    
   ],
   providers: [],
   bootstrap: [AppComponent]
