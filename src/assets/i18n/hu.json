@@ -2,7 +2,7 @@
   "navbar": {
     "nav1": "Kezdőlap",
     "nav2": "Kapcsolat",
-    "nav3": "Hallgatók",
+    "nav3": "álláskeresők",
     "nav4": "Álláshirdetések",
     "nav5": "Feliratkozás álláskeresőként",
     "nav6": "Álláshirdetés készítése"
@@ -21,22 +21,22 @@
   },
   "students": {
     "law": "Állam- és Jogtudományok",
-    "health-care": "Általános Orvostudományok",
+    "medicine": "Orvostudományok",
     "human-sciences": "Bölcsészettudományok",
     "health-sciences": "Egészségtudományok",
-    "destistry": "Fogorvostudományok",
+    "dentistry": "Fogorvostudományok",
     "economy": "Gazdaságtudományok",
     "pedagogy": "Gyermeknevelés és Gyógypedagógia",
-    "pharmacy": "Gyógyszerésztudomány",
+    "pharmacy": "Gyógyszerésztudományok",
     "informatics": "Informatika",
-    "agriculture": "Mezőgazdaság",
-    "food-sciences": "Élelmiszertudományok",
+    "agriculture-food-sciences-environmental-management": "Mezőgazdaság, Élelmiszertudományok, Környezetgazdálkodás",
+    
     "environmental-management": "Környezetgazdálkodás",
-    "Engineering": "Műszakok",
-    "science-and-technology": "Természettudomány és Technológia",
+    "engineering": "Műszakok",
+    "science-and-technology": "Természettudományok és Technológia",
     "music": "Zeneművészet",
 
-
+    "food-sciences": "Élelmiszertudományok",
     "finance-business": "Pénzügy és üzlet",
     "it": "Információ technológia (IT)",
     "architecture": "Építészmérnöki",

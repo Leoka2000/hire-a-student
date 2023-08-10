@@ -109,9 +109,10 @@ a {
 .dropdown-menu>li {
     border-bottom: 1px solid rgb(97, 97, 97);
     font-family: 'Space Grotesk', sans-serif;
-
 }
-
+.dropdown-menu>li>a {
+    font-size: 1rem;
+}
 li>a {
     color: rgb(223, 223, 223);
     text-decoration: none;
@@ -280,11 +281,11 @@ li>a:hover {
     }
 
     .dropdown-menu {
-        left: -5rem;
+        left: -8.5rem;
     }
 
     .dropdown-menu>li>a {
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .button-subs {
@@ -330,4 +331,9 @@ height: 2.5rem;
 font-size: 12px;
 width: 4.5rem;
     } 
+}
+@media screen and (max-width: 320px) {
+    .dropdown-menu>li>a {
+        font-size: 9.8px;
+    }
 }

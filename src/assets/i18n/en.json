@@ -2,25 +2,25 @@
   "navbar": {
     "nav1": "Home",
     "nav2": "Contact",
-    "nav3": "Students",
+    "nav3": "Job seekers",
     "nav4": "Job postings",
     "nav5": "Subscribe as a job seeker",
     "nav6": "Make a job post"
   },
   "students": {
     "law": "Law",
-    "health-care": "Medicine",
+    "medicine": "Medicine",
     "human-sciences": "Humanities",
     "health-sciences": "Health Sciences",
-    "destistry": "Dentistry",
+    "dentistry": "Dentistry",
     "economy": "Economics and Business",
     "pedagogy": "Child and Special Needs Education",
     "pharmacy": "Pharmacy",
     "informatics": "Informatics",
-    "agriculture": "Agriculture, Food Sciences, and Environmental Management",
-    "food-sciences": "Food sciences",
+    "agriculture-food-sciences-environmental-management": "Agriculture, Food Sciences, and Environmental Management",
+   
     "environmental-management": "Environmental management",
-    "engineering": "engineering",
+    "engineering": "Engineering",
     "science-and-technology": "Science and Technology",
     "music": "Music",
 
@@ -31,7 +31,7 @@
     "finance-business": "Finance and business",
   
     "it": "Information technology (IT)",
-   
+    "food-sciences": "Food sciences",
     "architecture": "Architecture",
     "environmental-engineering": "Environmental engineering",
     "mechanical-engineering": "Mechanical engineering",
