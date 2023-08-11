@@ -11,13 +11,9 @@ import { HumanSciencesComponent } from './pages/students/human-sciences/human-sc
 import { EconomicsBusinessComponent } from './pages/students/economics-business/economics-business.component';
 import { PedagogyComponent } from './pages/students/pedagogy/pedagogy.component';
 import { ItComponent } from './pages/students/it/it.component';
-
 import { ArchitectureComponent } from './pages/students/architecture/architecture.component';
-import { MechatronicalEngineeringComponent } from './pages/students/mechatronical-engineering/mechatronical-engineering.component';
 
-import { ChemistryChemicalEngineeringComponent } from './pages/students/chemistry-chemical-engineering/chemistry-chemical-engineering.component';
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
-
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
 
 import { DesignComponent } from './pages/students/design/design.component';
@@ -36,9 +32,6 @@ const routes: Routes = [
   {path: 'students/pedagogy', component: PedagogyComponent},
   {path: 'students/it', component: ItComponent},
   {path: 'students/architecture', component: ArchitectureComponent},
-  {path: 'students/mechatronics-egineering', component: MechatronicalEngineeringComponent},
-
-  {path: 'students/chemistry-chemical-engineering', component: ChemistryChemicalEngineeringComponent},
   {path: 'students/agriculture', component: AgricultureComponent},
   {path: 'students/private-classes', component: PrivateClassesComponent},
   {path: 'students/design', component: DesignComponent},
