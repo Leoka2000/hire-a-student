@@ -11,13 +11,15 @@ import { HumanSciencesComponent } from './pages/students/human-sciences/human-sc
 import { EconomicsBusinessComponent } from './pages/students/economics-business/economics-business.component';
 import { PedagogyComponent } from './pages/students/pedagogy/pedagogy.component';
 import { ItComponent } from './pages/students/it/it.component';
-
-
+import { HealthSciencesComponent} from './pages/students/health-sciences/health-sciences.component';
+import { DentistryComponent } from './pages/students/dentistry/dentistry.component';
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
-
 import { DesignComponent } from './pages/students/design/design.component';
-
+import { PharmacyComponent } from './pages/students/pharmacy/pharmacy.component';
+import { EngineeringComponent } from './pages/students/engineering/engineering.component';
+import { ScienceTechnologyComponent } from './pages/students/science-technology/science-technology.component';
+import { MusicComponent } from './pages/students/music/music.component';
 
 
 const routes: Routes = [
@@ -28,10 +30,16 @@ const routes: Routes = [
   {path: 'students/law', component: LawComponent},
   {path: 'students/health-care', component: MedicalSciencesComponent}, 
   {path: 'students/human-sciences', component: HumanSciencesComponent}, 
+  {path: 'students/health-sciences', component: HealthSciencesComponent}, 
+  {path: 'students/dentistry', component: DentistryComponent},
   {path: 'students/economics-and-business', component: EconomicsBusinessComponent},
+  {path: 'students/pharmacy', component: PharmacyComponent},
+  {path: 'students/engineering', component: EngineeringComponent},
+  {path: 'students/science-and-technology', component: ScienceTechnologyComponent},
+  {path: 'students/music', component: MusicComponent},
   {path: 'students/pedagogy', component: PedagogyComponent},
   {path: 'students/it', component: ItComponent},
-  {path: 'students/agriculture', component: AgricultureComponent},
+  {path: 'students/agriculture-food-sciences-environmental-management', component: AgricultureComponent},
   {path: 'students/private-classes', component: PrivateClassesComponent},
   {path: 'students/design', component: DesignComponent},
 

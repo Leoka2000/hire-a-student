@@ -25,13 +25,16 @@ import { HumanSciencesComponent } from './pages/students/human-sciences/human-sc
 import { EconomicsBusinessComponent } from './pages/students/economics-business/economics-business.component';
 import { PedagogyComponent } from './pages/students/pedagogy/pedagogy.component';
 import { ItComponent } from './pages/students/it/it.component';
-
-
-
 import { AgricultureComponent } from './pages/students/agriculture/agriculture.component';
 import { PrivateClassesComponent } from './pages/students/private-classes/private-classes.component';
 import { DesignComponent } from './pages/students/design/design.component';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { HealthSciencesComponent } from './pages/students/health-sciences/health-sciences.component';
+import { DentistryComponent } from './pages/students/dentistry/dentistry.component';
+import { PharmacyComponent } from './pages/students/pharmacy/pharmacy.component';
+import { EngineeringComponent } from './pages/students/engineering/engineering.component';
+import { ScienceTechnologyComponent } from './pages/students/science-technology/science-technology.component';
+import { MusicComponent } from './pages/students/music/music.component';
 
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -54,11 +57,16 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     EconomicsBusinessComponent,
     PedagogyComponent,
     ItComponent,
-  
-
+    HealthSciencesComponent,
     AgricultureComponent,
     PrivateClassesComponent,
     DesignComponent,
+    HealthSciencesComponent,
+    DentistryComponent,
+    PharmacyComponent,
+    EngineeringComponent,
+    ScienceTechnologyComponent,
+    MusicComponent,
    
   ],
   imports: [

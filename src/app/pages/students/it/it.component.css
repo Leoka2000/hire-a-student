@@ -1,3 +1,8 @@
 .it{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../../assets/bg-imgs/informatics.jpg");
 }
+@media screen and (max-width: 900px) {
+    .it {
+            background-position: 3rem 10rem, 75% 17%; 
+    }
+}

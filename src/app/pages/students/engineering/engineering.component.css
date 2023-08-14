@@ -1,0 +1,9 @@
+.engineering {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../../assets/bg-imgs/mathematics.jpg");
+}
+
+@media screen and (max-width: 900px) {
+    .engineering {
+            background-position: 3rem 10rem, 40% 12%; 
+    }
+}
