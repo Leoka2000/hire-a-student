@@ -51,6 +51,8 @@ height: auto;
 .hero-wrapper>p {
     font-size: 1.7rem;
 }
+#silhouette4 svg, 
+#silhouette3 svg, 
 #silhouette svg,
 #silhouette2 svg {
   width: 400px; 
@@ -155,7 +157,8 @@ height: auto;
 .landing-section {
     background-color: rgb(243, 243, 243);
     padding: 4rem 3rem 6rem 3rem;
-    z-index: 3;
+ position: relative;
+    z-index: 2;
     color: black;
     font-family: 'Space Grotesk', sans-serif;
     display: flex;
@@ -171,7 +174,7 @@ height: auto;
 
 .landing-wrapper>header>h1 {
     font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 3rem;
 
     text-align: center;
@@ -238,16 +241,32 @@ height: auto;
 
 /* FAQ SECTION */ /* FAQ SECTION */ /* FAQ SECTION *//* FAQ SECTION */ /* FAQ SECTION *//* FAQ SECTION */
 .faq-section {
-    padding: 5rem 6rem 2rem 6rem;
+    padding: 16rem 6rem 4rem 6rem;
     position: relative;
     background-color: #0c0c0c;
+}
+
+
+
+
+#silhouette4 {
+    position: absolute;
+    right:0rem;
+    top: -12rem;
+    width: 18rem;
+    height: fit-content;
+    bottom: 0rem;
+    z-index: 1;
+    overflow: hidden;
+  
+
 }
 
 .faq-section>div>header {
     font-size: 3rem;
     font-family: 'Space Grotesk', sans-serif;
     margin-bottom: 4rem;
-    font-size: 900;
+    font-weight: 900;
  
 }
 
@@ -290,7 +309,14 @@ height: auto;
 }
 /* TEAM-SECTION */ /* TEAM-SECTION */ /* TEAM-SECTION *//* TEAM-SECTION *//* TEAM-SECTION */
 .team-section {
-    padding: 1rem 0 5rem 0;
+    padding: 1rem 0 3rem 0;
+    position: relative;
+}
+#silhouette3 {
+    position: absolute;
+    bottom: -10rem;
+    left: -11rem;
+    z-index: -1;
 }
 .team-section > header {
     text-align: center;
@@ -367,13 +393,23 @@ flex-wrap: wrap;
 @media screen and (max-width: 648px) {
 
     .post-btn,
-    .primary-btn,
-    .hero-wrapper>p {
+    .primary-btn {
         font-size: 15px;
         width: 100%;
     }
     
-
+    
+    #silhouette4 {
+        position: absolute;
+        right:0rem;
+        top: -15rem;
+        width: 14rem;
+        bottom: 0rem;
+        z-index: 1;
+        overflow: hidden;
+      
+    
+    }
     .hero-wrapper>h1 {
         font-size: 3rem;
         width: 100%;
@@ -410,6 +446,7 @@ flex-wrap: wrap;
         padding-right: 1.5rem;
         padding-left: 1.5rem;
     }
+    
 
     .hero-buttons {
         display: flex;
@@ -421,7 +458,7 @@ flex-wrap: wrap;
     }
 
     .hero-wrapper>p {
-        font-size: 16px;
+        font-size: 19px;
         line-height: 1.6rem;
 
         width: 15rem;
@@ -500,6 +537,11 @@ flex-wrap: wrap;
     .faq-section>div>header {
         font-size: 1.9rem;
         line-height: 2.5rem;
+        margin-bottom: 2rem;
+      padding-top: 2rem;
+    }
+    #silhouette3 {
+     display: none;
     }
     .custom > h1 {
 font-size: 1.1rem;

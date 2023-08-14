@@ -92,4 +92,12 @@ font-weight: 700;
         line-height: 2.4rem;
       
     }
+    .arrow {
+        padding: 1.8rem;
+        border: 1px solid white;
+        border-radius: 100%;
+        transition: 0.2s;
+        font-size: 1.8rem;
+        bottom: -2.1rem;
+    }
 }
