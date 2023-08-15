@@ -118,6 +118,16 @@
     "make-job-post1": "Important information before filling out the job application form!",
     "make-job-post2": "After submitting this form, we will email you with the bank account information to where you should make the payment.",
     "make-job-post3": "Fill the form"
+  }, 
+  "package" : {
+    "package1": "30 days job ad.",
+    "package2": "For any kind of job.",
+    "package3": "Job ads are also posted on our instagram and facebook pages.",
+    "package4": "Unlimited applicants.",
+    "package5": "For jobs that require or not secondary education.",
+    "package6": "Accessible to all prospective applicants, irrespective of their location, size, and scope of operations.",
+    "package7": "Payment."
   }
+  
 
 }

@@ -112,5 +112,14 @@
     "make-job-post1": "Fontos információk az álláshirdetés feladása előtt!",
     "make-job-post2": "A kérelem beküldése után e-mailben megküldjük Önnek a fizetéshez szükséges bankszámla adatokat.",
     "make-job-post3": "Űrlap kitöltése"
-  } 
+  },
+  "package" : {
+    "package1": "30 napos álláshirdetés.",
+    "package2": "Bármilyen típusú álláshoz.",
+    "package3": "Az álláshirdetések emellett megjelennek az Instagram és Facebook oldalainkon is.",
+    "package4": "Korlátlan jelentkező.",
+    "package5": "Olyan állásokhoz, melyek középfokú végzettséget igényelnek vagy nem igényelnek.",
+    "package6": "Minden leendő jelentkező számára elérhető, függetlenül a tevékenységük helyétől, méretétől és terjedelmétől.",    
+    "package7": "Fizetés."
+} 
 }
