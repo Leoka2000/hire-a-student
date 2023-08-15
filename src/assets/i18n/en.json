@@ -58,9 +58,9 @@
       }
   },
   "contact": {
-    "contact1": "Our email address",
+    "contact1": "Email address",
     "contact2": "Our phone number",
-    "contact3": "Send us a message!",
+    "contact3": "Send me a message!",
     "contact4": "Name",
     "contact5": "The full name must be at least 3 characters long",
     "contact6": "Email address",
@@ -126,7 +126,7 @@
     "package4": "Unlimited applicants.",
     "package5": "For jobs that require or not secondary education.",
     "package6": "Accessible to all prospective applicants, irrespective of their location, size, and scope of operations.",
-    "package7": "Payment."
+    "package7": "Payment"
   }
   
 

@@ -8,9 +8,9 @@
     "nav6": "Álláshirdetés készítése"
   },
   "contact": {
-    "contact1": "Az mi e-mail címünk",
+    "contact1": "Email cím",
     "contact2": "Az mi telefonszámunk",
-    "contact3": "Küldjön üzenetet nekünk!",
+    "contact3": "Küldjön üzenetet nekem!",
     "contact4": "Név",
     "contact5": "A teljes névnek legalább 3 karakterből kell állnia",
     "contact6": "Email cím",
@@ -120,6 +120,6 @@
     "package4": "Korlátlan jelentkező.",
     "package5": "Olyan állásokhoz, melyek középfokú végzettséget igényelnek vagy nem igényelnek.",
     "package6": "Minden leendő jelentkező számára elérhető, függetlenül a tevékenységük helyétől, méretétől és terjedelmétől.",    
-    "package7": "Fizetés."
+    "package7": "Fizetés"
 } 
 }

@@ -49,9 +49,9 @@
       }
     },
     "contact": {
-      "contact1": "Unsere E-Mail-Adresse",
+      "contact1": "E-Mail-Adresse",
       "contact2": "Unsere Telefonnummer",
-      "contact3": "Schreiben Sie uns eine Nachricht!",
+      "contact3": "Schick mir eine Nachricht",
       "contact4": "Name",
       "contact5": "Der vollständige Name muss mindestens 3 Zeichen lang sein",
       "contact6": "E-Mail-Adresse",
@@ -117,7 +117,7 @@
         "package4": "Unbegrenzte Bewerber.",
         "package5": "Für Stellen, die eine Sekundarschulbildung erfordern oder nicht.",
         "package6": "Für alle potenziellen Bewerber zugänglich, unabhängig von ihrem Standort, ihrer Größe und ihrem Tätigkeitsbereich.",
-        "package7": "Zahlung."
+        "package7": "Zahlung"
         }
     
     }
