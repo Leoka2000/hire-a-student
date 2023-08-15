@@ -131,8 +131,9 @@ align-items: center;
 		background-position: 20rem 20rem, 70% 40%;
 	}
 	#special-h1 {
-	font-size: 1.8rem;
-	padding: 1.8rem;
+	font-size: 1.5rem;
+	padding: 1.1rem;
+	line-height: 2.3rem;
 }
 #students-h1 {
 	font-size: 1.2rem;

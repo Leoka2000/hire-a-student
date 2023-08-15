@@ -101,7 +101,9 @@ a {
 
 .dropdown-menu {
     overflow-y: scroll;
+    overflow-x: scroll;
     height: 25rem;
+    width: auto;
     border: #535353 1px solid;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -109,9 +111,11 @@ a {
 .dropdown-menu>li {
     border-bottom: 1px solid rgb(97, 97, 97);
     font-family: 'Space Grotesk', sans-serif;
+    width: 100%;
 }
 .dropdown-menu>li>a {
     font-size: 1rem;
+     width: 100%;
 }
 li>a {
     color: rgb(223, 223, 223);
@@ -178,7 +182,6 @@ li>a:hover {
 
 
 .subscribe-btn {
-
     font-weight: 700;
     text-align: center;
     text-decoration: none;
@@ -281,11 +284,11 @@ li>a:hover {
     }
 
     .dropdown-menu {
-        left: -8.5rem;
+        left: -8.85rem;
     }
 
     .dropdown-menu>li>a {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .button-subs {

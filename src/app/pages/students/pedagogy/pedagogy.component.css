@@ -1,3 +1,10 @@
 .pedagogy{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../../assets/bg-imgs/pedagogy.jpg");
 }
+
+@media screen and (max-width: 900px) {
+    .pedagogy {
+            background-position: 8rem 3rem, 31% 12%; 
+            
+    }
+}
