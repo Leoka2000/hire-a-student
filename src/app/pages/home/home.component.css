@@ -330,6 +330,9 @@ display: flex;
 justify-content: center;
 gap: 3rem;
 flex-wrap: wrap;
+margin-right: 0.5rem;
+margin-left: 0.5rem;
+
 }
 .team-section > main > div {
     display: flex;
@@ -337,16 +340,21 @@ flex-wrap: wrap;
  
     align-items: center;
 }
-.team-section > main > div > div {
+
+.team-section > main > div > a {
     width: 18rem;
     height: 18rem;  
     padding-bottom: 0.3rem;
+    text-align: center;
 }
-.team-section > main > div > div > h2 {
+.team-section > main > div > a > h2 {
     margin: 0;
     padding-top: 0.8rem;
 } 
-.team-section > main > div > div > img {
+.team-section > main > div > p {
+    text-align: center;
+}
+.team-section > main > div > a > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -500,8 +508,9 @@ flex-wrap: wrap;
     }
 
     .landing-wrapper>header>h1 {
-        font-size: 1.6rem;
-        line-height: 2.5rem;
+        font-size: 1.9rem;
+        line-height: 2.15rem;
+        font-weight: 900;
 
     }
 

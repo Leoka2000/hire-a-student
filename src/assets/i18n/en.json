@@ -72,7 +72,7 @@
   "hero": {
     "hero-1": "The fruits of labour",
     "jobs": "Latest job positions",
-    "jobs1": "Here are some of the latest job positions published on the website. Currently there are no job positions published.",
+    "jobs1": "Here are some of the latest job positions published on the website. Currently, there are no job positions published.",
     "jobs2": "Category:",
     "jobs3": "Contact:",
     "jobs4": "Position:",
@@ -105,7 +105,7 @@
     "jobs": "Latest job positions"
   },
   "team": {
-    "team1": "Meet our team"
+    "team1": "Meet me"
   },
   "footer": {
     "footer1": "Register for free",
