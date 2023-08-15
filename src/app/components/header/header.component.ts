@@ -10,7 +10,8 @@ import { TranslateService } from '@ngx-translate/core';
 export class HeaderComponent {
   languages = [
     { code: 'en', label: 'English' },
-    { code: 'hu', label: 'Magyar' }
+    { code: 'hu', label: 'Magyar' },
+    { code: 'de', label: 'Deutsch' },
   ];
 
   constructor(

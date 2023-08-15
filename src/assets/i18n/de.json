@@ -1,0 +1,123 @@
+{
+    "navbar": {
+      "nav1": "Startseite",
+      "nav2": "Kontakt",
+      "nav3": "Jobsuchende",
+      "nav4": "Stellenangebote",
+      "nav5": "Als Jobsuchender anmelden",
+      "nav6": "Stellenanzeige erstellen"
+    },
+    "students": {
+      "law": "Jura",
+      "medicine": "Medizin",
+      "human-sciences": "Geisteswissenschaften",
+      "health-sciences": "Gesundheitswissenschaften",
+      "dentistry": "Zahnmedizin",
+      "economy": "Wirtschaftswissenschaften",
+      "pedagogy": "Kinder- und Sonderpädagogik",
+      "pharmacy": "Pharmazie",
+      "informatics": "Informatik",
+      "agriculture-food-sciences-environmental-management": "Landwirtschaft, Lebensmittelwissenschaften und Umweltmanagement",
+      "environmental-management": "Umweltmanagement",
+      "engineering": "Ingenieurwissenschaften",
+      "science-and-technology": "Naturwissenschaften und Technologie",
+      "music": "Musik",
+      "finance-business": "Finanzen und Wirtschaft",
+      "it": "Informationstechnologie (IT)",
+      "food-sciences": "Lebensmittelwissenschaften",
+      "architecture": "Architektur",
+      "environmental-engineering": "Umweltingenieurwesen",
+      "mechanical-engineering": "Maschinenbau",
+      "mechatronics-engineering": "Mechatronik",
+      "biology-biochemical-engineering": "Biologie und Biochemie",
+      "chemistry-chemical-engineering": "Chemie und Chemietechnik",
+      "mathematics": "Mathematik",
+      "natural-sciences": "Naturwissenschaften",
+      "physics": "Physik",
+      "private-classes": "Private Klassen",
+      "psychology": "Psychologie",
+      "electrical-engineering": "Elektrotechnik",
+      "design": "Design",
+      "marketing": "Marketing und Handel",
+      "life-sciences": "Lebenswissenschaften",
+      "list": {
+        "email": "E-Mail:",
+        "degree": "Abschluss:",
+        "description": "Beschreibung:",
+        "cv": "Lebenslauf:",
+        "download": "Herunterladen:"
+      }
+    },
+    "contact": {
+      "contact1": "Unsere E-Mail-Adresse",
+      "contact2": "Unsere Telefonnummer",
+      "contact3": "Schreiben Sie uns eine Nachricht!",
+      "contact4": "Name",
+      "contact5": "Der vollständige Name muss mindestens 3 Zeichen lang sein",
+      "contact6": "E-Mail-Adresse",
+      "contact7": "Geben Sie eine gültige E-Mail-Adresse ein",
+      "contact8": "Schreiben Sie Ihre Nachricht",
+      "contact9": "Nachricht ist erforderlich",
+      "contact10": "Nachricht senden"
+    },
+    "hero": {
+      "hero-1": "Die Früchte der Arbeit",
+      "jobs": "Aktuelle Stellenangebote",
+      "jobs1": "Hier sind einige der neuesten Stellenangebote, die auf der Website veröffentlicht wurden. Derzeit sind keine Stellenangebote verfügbar.",
+      "jobs2": "Kategorie:",
+      "jobs3": "Kontakt:",
+      "jobs4": "Position:",
+      "jobs5": "Gehalt:",
+      "jobs6": "Beschreibung:"
+    },
+    "landing": {
+      "landing1": "Schauen Sie sich an, was wir tun, um Studenten näher an den ungarischen Arbeitsmarkt zu bringen.",
+      "landing2": "Sind Sie ein Unternehmen oder eine Privatperson und benötigen jemanden für ein Praktikum oder einen Job?",
+      "landing3": "Suchen Sie eine Stelle oder ein Praktikum?",
+      "landing4": "Haben Sie Fragen? Werfen Sie einen Blick auf den Abschnitt mit häufig gestellten Fragen auf der Website!",
+      "landing-seemore": "Mehr anzeigen"
+    },
+    "faq": {
+      "faq1": "Häufig gestellte Fragen",
+      "faq2": "Wie viel kostet es, eine Stellenanzeige zu veröffentlichen?",
+      "faq3": "Die Veröffentlichung einer Stellenanzeige auf unserer Plattform kostet 10.000 Ft.",
+      "faq4": "Müssen Universitätsstudenten für die Anmeldung bezahlen?",
+      "faq5": "Nein. Die Plattform ist kostenlos für Bachelor- und Masterstudenten. Melden Sie sich auf der Plattform an, indem Sie",
+      "faq5.1": "hier klicken.",
+      "faq6": "Können sich alle Universitätsstudenten bewerben?",
+      "faq7": "Ja, solange Sie ordnungsgemäß an einer ungarischen Universität eingeschrieben sind. Zur Registrierung",
+      "faq7.1": "hier klicken.",
+      "faq8": "Ich habe eine Stellenanzeige gefunden. Wie kontaktiere ich das Unternehmen?",
+      "faq9": "Auf der Registerkarte",
+      "faq9.1": "'Stellenangebote'",
+      "faq9.2": "finden Sie eine E-Mail-Adresse für jedes Stellenangebot. Senden Sie einfach eine E-Mail an das Unternehmen, das diese Position anbietet."
+    },
+    "advertisements": {
+      "jobs": "Aktuelle Stellenangebote"
+    },
+    "team": {
+      "team1": "Unser Team kennenlernen"
+    },
+    "footer": {
+      "footer1": "Kostenlos registrieren",
+      "footer2": "Anmelden!",
+      "footer3": "Werfen Sie einen Blick auf die",
+      "footer4": "Nutzungsbedingungen",
+      "footer5": "Entwickelt von"
+    },
+    "make-job-post": {
+      "make-job-post1": "Wichtige Informationen vor dem Ausfüllen des Stellenbewerbungsformulars!",
+      "make-job-post2": "Nach dem Absenden dieses Formulars senden wir Ihnen per E-Mail die Bankkontoinformationen, auf die Sie die Zahlung vornehmen sollen.",
+      "make-job-post3": "Formular ausfüllen"
+    },
+    "package" : {
+        "package1": "Stellenanzeige für 30 Tage.",
+        "package2": "Für jede Art von Stelle.",
+        "package3": "Stellenanzeigen werden auch auf unseren Instagram- und Facebook-Seiten veröffentlicht.",
+        "package4": "Unbegrenzte Bewerber.",
+        "package5": "Für Stellen, die eine Sekundarschulbildung erfordern oder nicht.",
+        "package6": "Für alle potenziellen Bewerber zugänglich, unabhängig von ihrem Standort, ihrer Größe und ihrem Tätigkeitsbereich.",
+        "package7": "Zahlung."
+        }
+    
+    }
