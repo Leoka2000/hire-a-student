@@ -159,15 +159,18 @@ gap: 2rem;
     text-align: center;
 }
 #students-left > div {
-    max-width: 23rem;
-    min-width: 20rem;
+    
+    width: 20rem;
+	height: 20rem;
+	margin-bottom: 0.4rem;
+	
 }
 
 #students-left > div > img {
     width: 100%;
-   
+   height: 100%;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 7px;
     border: #535353 1px solid;
 }
 #students-right {

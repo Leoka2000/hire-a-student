@@ -74,7 +74,7 @@
     "jobs6": "Leírás:"
   },
   "landing": {
-    "landing1": "Tekintse meg, mit teszünk azért, hogy a diákok közelebb kerüljenek a magyar munkaerőpiachoz!",
+    "landing1": "Tekintse meg, mit teszünk azért, hogy az emberek közelebb kerüljenek a magyar munkaerőpiachoz!",
     "landing2": "Ön cég vagy magánszemély és szüksége van valakire, akit felvehet szakmai gyakorlatra vagy állás betöltésére?",
     "landing3": "Állást vagy szakmai gyakorlatot keresel?",
     "landing4": "Kérdése van? Nézze meg a honlapon a gyakran ismételt kérdések rovatot!",
@@ -85,10 +85,10 @@
     "faq2": "Mennyibe kerül egy álláshirdetés közzététele?",
     "faq3": "10000 Ft-ba kerül egy állás meghirdetése a platformon.",
     "faq4": "Az egyetemi hallgatóknak  kell fizetniük a feliratkozásért?",
-    "faq5": "Nem. A platform ingyenes az alap- és mesterképzésben részt vevő hallgatók számára. Iratkozz fel a platformra",
+    "faq5": "Nem. A platform ingyenes mindenki számára. Iratkozz fel a platformra",
     "faq5.1": "ide kattintva.",
-    "faq6": "Bármilyen egyetemi hallgató regisztrálhat?",
-    "faq7": "Igen, amennyiben Ön rendszeresen állandó hallgatója bármely magyar egyetemnek. A regisztrációhoz",
+    "faq6": "Bármilyen egyetemi hallgató vagy végzett hallgató regisztrálhat?",
+    "faq7": "Igen, amíg rendszeresen be vagy iratkozva bármelyik magyar egyetemre, vagy már rendelkezel egyetemi diplomával.",
     "faq7.1": "kattints ide.",
     "faq8": "Találtam egy állást. Hogyan léphetek kapcsolatba a céggel?",
     "faq9": "Az",
