@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 900px) {
     .science-and-technology {
-            background-position: 8rem 3rem, 56% 17%; 
+            background-position: 20rem 8rem, 70% 3% !important; 
             padding-top: 22rem;
             padding-bottom: 22rem;
     }
