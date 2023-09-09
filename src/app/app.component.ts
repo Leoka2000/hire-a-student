@@ -1,5 +1,6 @@
 import { Component, ElementRef, HostListener } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
+import { NgcCookieConsentService } from 'ngx-cookieconsent';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,7 @@ export class AppComponent {
   constructor(
     private viewportScroller: ViewportScroller,
     private elementRef: ElementRef,
+    private cookieService: NgcCookieConsentService,
   ) {}
 
   scrollToTop() {

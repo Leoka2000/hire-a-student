@@ -1,5 +1,5 @@
 .job-position-section {
-    padding: 18rem 0 12rem 0;
+    padding: 18rem 0 15rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,9 +10,6 @@ position: relative;
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, fixed;
     border-bottom: 1px solid #393939;
-    
-    
-
 }
 .arrow {
     padding: 2.8rem;
@@ -48,7 +45,7 @@ font-weight: 700;
     font-family: 'Space Grotesk', sans-serif;
 }
 .job-listing-section {
-    padding: 19rem 0 10rem 0;
+    padding: 10rem 0 10rem 0;
     font-family: 'Space Grotesk', sans-serif;
     display: flex;
     flex-direction: column;
@@ -74,9 +71,23 @@ font-weight: 700;
     padding-bottom: 3rem;
 }
 
+@media screen and (max-width: 842px) {
+    .job-listing-section {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .job-position-section {
         background-size: 75rem;
+    }
+    .job-listing-section > main > p {
+        border-bottom: none;
+        font-size: 2rem;
+        line-height: 2.9rem;
+        max-width: 50rem;
+        text-decoration: none;
     }
     .job-position-section > h1 {
         font-size: 1.8rem;

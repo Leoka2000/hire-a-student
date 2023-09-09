@@ -35,7 +35,7 @@ import { PharmacyComponent } from './pages/students/pharmacy/pharmacy.component'
 import { EngineeringComponent } from './pages/students/engineering/engineering.component';
 import { ScienceTechnologyComponent } from './pages/students/science-technology/science-technology.component';
 import { MusicComponent } from './pages/students/music/music.component';
-
+import { CookieConsentModule } from '../cookie-consent/cookie-consent.module';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient);
@@ -80,6 +80,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     MatMenuModule,
     ReactiveFormsModule,
     HttpClientModule,
+    CookieConsentModule,
     SharedModule,  
     TranslateModule.forRoot({
       loader: {
@@ -88,6 +89,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
         deps: [HttpClient],
       }
     })
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

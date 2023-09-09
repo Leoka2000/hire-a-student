@@ -441,6 +441,7 @@ margin-left: 0.5rem;
     .faq-section {
         padding: 10rem 1.5rem 2.5rem 1.5rem;
     }
+    
     /* FAQ */
     #silhouette {
         top: 50rem;
@@ -488,14 +489,14 @@ margin-left: 0.5rem;
     }
    
     .team-section > header {
-        
+        margin-bottom: 0.5rem;
         font-size: 2rem;
      line-height: 2.5rem;
       
     }
-    .team-section > main > div > div {
-        width: 15rem;
-        height: 15rem;  
+    .team-section > main > div > a {
+        width: 12rem;
+        height: 12rem;  
       
     }
 
@@ -535,6 +536,10 @@ margin-left: 0.5rem;
         object-fit: cover;
     height: auto;
     
+    }
+    .faq-individual > nav > div > h1 {
+        line-height: 1.5rem;
+        margin-bottom: 0.7rem
     }
     
 }

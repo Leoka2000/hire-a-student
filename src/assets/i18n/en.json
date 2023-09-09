@@ -18,18 +18,11 @@
     "pharmacy": "Pharmacy",
     "informatics": "Informatics",
     "agriculture-food-sciences-environmental-management": "Agriculture, Food Sciences, and Environmental Management",
-   
     "environmental-management": "Environmental management",
     "engineering": "Engineering",
     "science-and-technology": "Science and Technology",
     "music": "Music",
-
-
-
-
-
     "finance-business": "Finance and business",
-  
     "it": "Information technology (IT)",
     "food-sciences": "Food sciences",
     "architecture": "Architecture",
@@ -38,7 +31,6 @@
     "mechatronics-engineering": "Mechatronics engineering",
     "biology-biochemical-engineering": "Biology and biochemical engineering",
     "chemistry-chemical-engineering": "Chemistry and chemical engineering",
-
     "mathematics": "Mathematics",
     "natural-sciences": "Natural sciences",
     "physics": "Physics",
@@ -53,9 +45,11 @@
       "degree": "Degree:",
       "description" : "Description:",
         "cv": "CV:",
-        "download": "Download:"
-        
-      }
+        "download": "Download:" 
+      },
+"students-none": "People will appear in this section once they subscribed. Currently, there are no students registered in this area." 
+
+
   },
   "contact": {
     "contact1": "Email address",
@@ -127,7 +121,10 @@
     "package5": "For jobs that require or not secondary education.",
     "package6": "Accessible to all prospective applicants, irrespective of their location, size, and scope of operations.",
     "package7": "Payment"
-  }
+  },
+  
+ 
+
   
 
 }
