@@ -59,8 +59,8 @@
       "description" : "Leírás:",
         "cv": "Önéletrajz:",
         "download": "Letöltés:"   
-        
-      }
+      },
+      "individual-page": "A diákok csak akkor fognak megjelenni ebben a szakaszban, ha feliratkoztak. Jelenleg nincs senki regisztrálva ezen a területen."
   },
   "hero": {
     "hero-1": "A munka gyümölcse",

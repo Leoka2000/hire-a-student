@@ -47,8 +47,8 @@
       "description" : "Description:",
         "cv": "CV:",
         "download": "Download:"
-        
-      }
+      },
+      "individual-page": "Students will appear in this section once they subscribed. Currently, there is no one registered in this area." 
   },
   "contact": {
     "contact1": "Email address",
