@@ -40,16 +40,15 @@
     "design": "Design",
     "marketing": "Marketing and commerce",
     "life-sciences": "Life sciences",
+    "students-none": "Students or alumni will appear in this section once they subscribed. Currently, there are no one in this area.",
     "list": {
       "email": "Email:",
       "degree": "Degree:",
       "description" : "Description:",
         "cv": "CV:",
-        "download": "Download:" 
-      },
-"students-none": "People will appear in this section once they subscribed. Currently, there are no students registered in this area." 
-
-
+        "download": "Download:"
+        
+      }
   },
   "contact": {
     "contact1": "Email address",
@@ -93,7 +92,7 @@
     "faq8": "I have found a job position. How do I contact the company?",
     "faq9": "On the",
     "faq9.1": "'job positions'",
-    "faq9.2": "tab there is an email address for each job offer. Just send an e-mail to the enterprise who is offering this position."
+    "faq9.2": "Tab there is an email address for each job offer. Just send an e-mail to the enterprise who is offering this position."
   },
   "advertisements": {
     "jobs": "Latest job positions"
@@ -121,10 +120,7 @@
     "package5": "For jobs that require or not secondary education.",
     "package6": "Accessible to all prospective applicants, irrespective of their location, size, and scope of operations.",
     "package7": "Payment"
-  },
-  
- 
-
+  }
   
 
 }

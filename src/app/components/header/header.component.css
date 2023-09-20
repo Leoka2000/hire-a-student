@@ -3,10 +3,13 @@
     width: 100%;
     border-bottom: #535353 1px solid;
     display: block;
-    
-  
-  
+}
 
+.btn-header-wrapper {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.65rem;
 }
 
 .container-fluid {
@@ -60,6 +63,8 @@ option {
 .navbar-toggler {
     background-color: rgb(36, 36, 36);
 }
+
+
 
 .navbar-collapse {
     width: 80%;
@@ -163,7 +168,7 @@ li>a:hover {
     border: 1px solid #7f6aff;
     border-radius: 76px;
     justify-content: center;
-    padding: 13px 20px;
+    padding: 13px 28px;
     font-size: 14.5px;
     font-weight: 700;
     line-height: 1.111em;
@@ -189,7 +194,7 @@ li>a:hover {
     background-color: transparent;
     font-family: 'Space Grotesk', sans-serif;
     border-radius: 76px;
-    padding: 13px 20px;
+    padding: 13px 28px;
     cursor: pointer;
     font-size: 14.5px;
     line-height: 1.111em;
@@ -216,7 +221,11 @@ li>a:hover {
     }
 }
 
-@media screen and (max-width: 1201px) {}
+@media screen and (max-width: 1200px) {
+    .subscribe-btn, .job-btn {
+        padding: 18px 28px;
+    }
+}
 
 .loader {
     width: 48px;
@@ -229,6 +238,7 @@ li>a:hover {
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
 }
+
 
 .loader::after,
 .loader::before {
@@ -280,37 +290,53 @@ li>a:hover {
 @media screen and (max-width: 1200px) {
     #navbarScroll>ul {
         flex-direction: column;
+        gap: 1.1rem;
+        margin-top: 2rem;
+        
 
     }
+    .btn-header-wrapper {
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       gap: 1.3rem;
+       padding-top: 0.75rem;
+       width: 40%;
+       padding-bottom: 0.7rem;
+    }
+    .btn-header-wrapper > li {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+    
+    
 
     .dropdown-menu {
-        left: -7.6rem;
+        left: -8.6rem;
     }
 
     .dropdown-menu>li>a {
-        font-size: 10px;
+        font-size: 11.5px;
+        padding: 3px 7px;
     }
 
     .button-subs {
         margin-bottom: 1rem;
     }
 
-    .nav-br {
-        display: flex;
-    }
+    
 
    
 
-    .job-btn,
-    .subscribe-btn,
     .container-fluid {
         font-size: 14px;
-        padding: 13px 10px;
+        padding: 13px 10px 13px 0px;
 
-    }
-
-    #navbarScroll>ul {
-        gap: 1.1rem;
     }
 
     #lang-label {
@@ -319,6 +345,8 @@ li>a:hover {
 
 }
 @media screen and (max-width: 900px) {
+    
+    
     .container-fluid>img {
         display: flex;
     margin-bottom: 0.75rem
@@ -331,12 +359,38 @@ li>a:hover {
 select,
 option {
 height: 2.5rem;
-font-size: 12px;
+font-size: 11px;
 width: 4.5rem;
     } 
 }
+@media screen and (max-width: 734px) {
+   
+    .btn-header-wrapper {
+        
+        width: 65%;
+    
+     }
+     .btn-header-wrapper > li {
+         width: 100%;
+        
+         
+         
+     }
+}
+
+@media screen and (max-width: 520px) {
+    .btn-header-wrapper {
+        
+        width: 93%;
+    
+     }
+     .dropdown-menu {
+        max-width: 24rem;
+        left: -8.6rem;
+     }
+}
 @media screen and (max-width: 320px) {
     .dropdown-menu>li>a {
-        font-size: 9.8px;
+        font-size: 10.5px;
     }
 }

@@ -30,12 +30,10 @@
     "pharmacy": "Gyógyszerésztudományok",
     "informatics": "Informatika",
     "agriculture-food-sciences-environmental-management": "Mezőgazdaság, Élelmiszertudományok, Környezetgazdálkodás",
-    
     "environmental-management": "Környezetgazdálkodás",
     "engineering": "Műszakok",
     "science-and-technology": "Természettudományok és Technológia",
     "music": "Zeneművészet",
-
     "food-sciences": "Élelmiszertudományok",
     "finance-business": "Pénzügy és üzlet",
     "it": "Információ technológia (IT)",
@@ -54,6 +52,7 @@
     "design": "Design",
     "marketing": "Kereskedelem és marketing",
     "life-sciences": "Élettudományok",
+        "students-none": "Diákok vagy végzős hallgatók csak akkor fognak megjelenni ezen a területen, ha feliratkoztak. Jelenleg nincs senki ezen a területen.",
     "list": {
       "email": "Email:",
       "degree": "Szakk:",

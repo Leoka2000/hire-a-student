@@ -32,16 +32,22 @@
 .hero-wrapper>p {
     font-family: 'Space Grotesk', sans-serif;
     line-height: 2.5rem;
+    font-weight: 900;
+
+    
 }
+
 .logoThumb {
     width: auto;
 }
-.logoThumb > img {
+
+.logoThumb>img {
     width: 100%;
     object-fit: cover;
-height: auto;
+    height: auto;
 
 }
+
 .hero-wrapper>h1 {
     font-size: 3.5rem;
     font-weight: 700;
@@ -51,13 +57,15 @@ height: auto;
 .hero-wrapper>p {
     font-size: 1.7rem;
 }
-#silhouette4 svg, 
-#silhouette3 svg, 
+
+#silhouette4 svg,
+#silhouette3 svg,
 #silhouette svg,
 #silhouette2 svg {
-  width: 400px; 
-  height: 400px; 
+    width: 400px;
+    height: 400px;
 }
+
 #silhouette {
     position: absolute;
     top: 38rem;
@@ -67,7 +75,7 @@ height: auto;
 
 #silhouette2 {
     position: absolute;
-    right:0rem;
+    right: 0rem;
     width: 18rem;
     top: -4rem;
     z-index: -1;
@@ -151,13 +159,19 @@ height: auto;
 
 }
 
-/* LANDING SECTION */ /* LANDING SECTION *//* LANDING SECTION */ /* LANDING SECTION */ /* LANDING SECTION *//* LANDING SECTION *//* LANDING SECTION */
+/* LANDING SECTION */
+/* LANDING SECTION */
+/* LANDING SECTION */
+/* LANDING SECTION */
+/* LANDING SECTION */
+/* LANDING SECTION */
+/* LANDING SECTION */
 
 
 .landing-section {
     background-color: rgb(243, 243, 243);
     padding: 4rem 3rem 6rem 3rem;
- position: relative;
+    position: relative;
     z-index: 2;
     color: black;
     font-family: 'Space Grotesk', sans-serif;
@@ -209,7 +223,6 @@ height: auto;
     max-width: 30rem;
     font-weight: 700;
     color: #292929;
-    ;
     padding-bottom: 1rem;
 
 }
@@ -223,10 +236,10 @@ height: auto;
     border-radius: 76px;
     justify-content: center;
     cursor: pointer;
-    padding: 26px 38px;
-    font-size: 18px;
+    padding: 18px 28px;
+    font-size: 1.15rem;
     font-weight: 700;
-    line-height: 1.111em;
+    line-height: 1.4rem;
     text-decoration: none;
     font-family: 'Space Grotesk', sans-serif;
     transition: border-color .3s, background-color .3s, transform .3s, color .3s;
@@ -239,7 +252,12 @@ height: auto;
     transform: translate3d(0, -3px, .01px);
 }
 
-/* FAQ SECTION */ /* FAQ SECTION */ /* FAQ SECTION *//* FAQ SECTION */ /* FAQ SECTION *//* FAQ SECTION */
+/* FAQ SECTION */
+/* FAQ SECTION */
+/* FAQ SECTION */
+/* FAQ SECTION */
+/* FAQ SECTION */
+/* FAQ SECTION */
 .faq-section {
     padding: 16rem 6rem 4rem 6rem;
     position: relative;
@@ -251,14 +269,14 @@ height: auto;
 
 #silhouette4 {
     position: absolute;
-    right:0rem;
+    right: 0rem;
     top: -12rem;
     width: 18rem;
     height: fit-content;
     bottom: 0rem;
     z-index: 1;
     overflow: hidden;
-  
+
 
 }
 
@@ -267,7 +285,7 @@ height: auto;
     font-family: 'Space Grotesk', sans-serif;
     margin-bottom: 4rem;
     font-weight: 900;
- 
+
 }
 
 
@@ -307,125 +325,143 @@ height: auto;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-/* TEAM-SECTION */ /* TEAM-SECTION */ /* TEAM-SECTION *//* TEAM-SECTION *//* TEAM-SECTION */
+
+/* TEAM-SECTION */
+/* TEAM-SECTION */
+/* TEAM-SECTION */
+/* TEAM-SECTION */
+/* TEAM-SECTION */
 .team-section {
     padding: 1rem 0 3rem 0;
     position: relative;
 }
+
 #silhouette3 {
     position: absolute;
     bottom: -10rem;
     left: -11rem;
     z-index: -1;
 }
-.team-section > header {
+
+.team-section>header {
     text-align: center;
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 3rem;
 }
 
-.team-section > main {
-display: flex;
-justify-content: center;
-gap: 3rem;
-flex-wrap: wrap;
-margin-right: 0.5rem;
-margin-left: 0.5rem;
+.team-section>main {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 
 }
-.team-section > main > div {
+
+.team-section>main>div {
     display: flex;
     flex-direction: column;
- 
+
     align-items: center;
 }
 
-.team-section > main > div > a {
+.team-section>main>div>a {
     width: 18rem;
-    height: 18rem;  
+    height: 18rem;
     padding-bottom: 0.3rem;
     text-align: center;
     transition: 0.2s;
     cursor: pointer;
     border-radius: 100%;
 }
-.team-section > main > div > a:hover {
+
+.team-section>main>div>a:hover {
     transform: translateY(-5px);
-  box-shadow: 0px 10px 20px 2px rgba(91, 73, 255, 0.7);
-  background-color: rgba(91, 73, 255, 0.7);
+    box-shadow: 0px 10px 20px 2px rgba(91, 73, 255, 0.7);
+    background-color: rgba(91, 73, 255, 0.7);
 }
-.team-section > main > div > a > h2 {
+
+.team-section>main>div>a>h2 {
     margin: 0;
     padding-top: 0.8rem;
-} 
-.team-section > main > div > p {
+}
+
+.team-section>main>div>p {
     text-align: center;
 }
-.team-section > main > div > a > img {
+
+.team-section>main>div>a>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 100%;
-    box-shadow: 0 2px 4px #0000004d,0 0 10px #fff3;
+    box-shadow: 0 2px 4px #0000004d, 0 0 10px #fff3;
     border: #535353 .7px solid;
     filter: brightness(0.85);
 }
+
 @media screen and (min-width:1650px) {
     .hero-section {
         padding: 14rem 0 24rem 1rem;
     }
+
     #silhouette {
         top: 47rem;
-} 
+    }
 }
-    
+
 @media screen and (max-width:1016px) {
     .hero-section {
         padding: 18rem 0 18rem 0;
         position: relative;
     }
+
     #silhouette {
-      
+
         top: 39rem;
         left: -10rem;
-        
+
     }
-    
+
     #silhouette2 {
-        right:0rem;
+        right: 0rem;
         width: 18rem;
         top: -7rem;
         z-index: -1;
-    
+
     }
 }
+
 @media screen and (max-width:900px) {
     #silhouette {
         top: 44rem;
         left: -10rem;
     }
 }
+
 @media screen and (max-width: 648px) {
 
     .post-btn,
     .primary-btn {
-        font-size: 15px;
+        font-size: 18px;
         width: 100%;
     }
-    
-    
+
+
     #silhouette4 {
         position: absolute;
-        right:0rem;
+        right: 0rem;
         top: -15rem;
         width: 14rem;
         bottom: 0rem;
         z-index: 1;
         overflow: hidden;
-      
-    
+
+
     }
+
     .hero-wrapper>h1 {
         font-size: 3rem;
         width: 100%;
@@ -437,24 +473,25 @@ margin-left: 0.5rem;
         padding-left: 4rem;
         padding-right: 4rem;
     }
+
     /* FAQ */
     .faq-section {
         padding: 10rem 1.5rem 2.5rem 1.5rem;
     }
-    
+
     /* FAQ */
     #silhouette {
         top: 50rem;
         left: -10rem;
     }
-    
+
     #silhouette2 {
-        right:0rem;
+        right: 0rem;
         width: 13rem;
 
         top: -7rem;
         z-index: -1;
-    
+
     }
 }
 
@@ -463,7 +500,7 @@ margin-left: 0.5rem;
         padding-right: 1.5rem;
         padding-left: 1.5rem;
     }
-    
+
 
     .hero-buttons {
         display: flex;
@@ -475,7 +512,7 @@ margin-left: 0.5rem;
     }
 
     .hero-wrapper>p {
-        font-size: 19px;
+        font-size: 23px;
         line-height: 1.6rem;
 
         width: 15rem;
@@ -487,24 +524,25 @@ margin-left: 0.5rem;
     .landing-section {
         padding: 4rem 1.5rem 4rem 1.5rem;
     }
-   
-    .team-section > header {
+
+    .team-section>header {
         margin-bottom: 0.5rem;
         font-size: 2rem;
-     line-height: 2.5rem;
-      
+        line-height: 2.5rem;
+
     }
-    .team-section > main > div > a {
+
+    .team-section>main>div>a {
         width: 12rem;
-        height: 12rem;  
-      
+        height: 12rem;
+
     }
 
 
-/* LANDING SECTION */
+    /* LANDING SECTION */
     .landing-wrapper>header>h1 {
         font-size: 2rem;
-        line-height: 2.5rem;
+        line-height: 2.25rem;
 
     }
 }
@@ -518,73 +556,100 @@ margin-left: 0.5rem;
 
     .landing-wrapper>header>h1 {
         font-size: 1.9rem;
-        line-height: 2.15rem;
+        line-height: 2.7rem;
         font-weight: 900;
 
     }
 
     .landing-main>div>div>h1 {
         font-size: 1.5rem;
+
     }
 
     .landing-main>div>a {
-        font-size: 0.9rem;
+        font-size: 1.15rem;
     }
-    
-    .logoThumb > img {
+
+    .logoThumb>img {
         width: 90%;
         object-fit: cover;
-    height: auto;
-    
+        height: auto;
+
     }
-    .faq-individual > nav > div > h1 {
-        line-height: 1.5rem;
-        margin-bottom: 0.7rem
+
+    .faq-individual>nav>div>h1 {
+        line-height: 1.8rem;
+        margin-bottom: 0.7rem;
+        font-size: 1.1rem;
     }
-    
+
 }
 
 @media screen and (max-width: 432px) {
     .landing-main>div>div>h1 {
         font-size: 1.2rem;
+
+
     }
-    
+
+    .faq-individual>nav>div>h1 {
+        line-height: 1.2rem;
+        margin-bottom: 0.7rem
+    }
+
 }
 
 /* FAQ SECTION */
 
 @media screen and (max-width: 932px) {
-    
-    
+
+
     .faq-section>div>header {
         font-size: 1.9rem;
         line-height: 2.5rem;
         margin-bottom: 2rem;
-      padding-top: 2rem;
+        padding-top: 2rem;
     }
+
+    .faq-individual>nav>div>h1 {
+        line-height: 1.5rem;
+        margin-bottom: 0.7rem
+    }
+
     #silhouette3 {
-     display: none;
+        display: none;
     }
-    .custom > h1 {
-font-size: 1.1rem;
-line-height: 1.85rem;
+
+    .custom>h1 {
+        font-size: 1.1rem;
+        line-height: 1.85rem;
     }
+
     .drop-h4 {
         font-size: 0.9rem;
     }
 }
-@media screen and (max-width: 796px) { 
-.custom {
-    flex-direction: column;
-    align-items: flex-start;
+
+@media screen and (max-width: 796px) {
+    .custom {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .faq-individual>nav>div>h1 {
+        font-size: 1.1rem;
+        line-height: 32px;
+        margin-bottom: 0.7rem
+    }
 }
-}
+
 @media screen and (min-width: 1440px) {
-    .landing-main
-    .faq-section {
+    .landing-main .faq-section {
         padding: 10rem 20rem 12rem 20rem;
     }
 }
+
 @media screen and (min-width: 1700px) {
     .faq-section {
         padding: 10rem 28rem 12rem 28rem;
