@@ -5,7 +5,7 @@ import { CookieConsentComponent } from './cookie-consent.component'
 /**/
 const cookieConfig: NgcCookieConsentConfig = {
   cookie: {
-    domain: 'https://megyamelo.com', 
+    domain: '172.22.56.239', 
   },
   position: 'bottom',
   theme: 'edgeless',
