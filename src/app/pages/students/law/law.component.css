@@ -2,3 +2,10 @@
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../../assets/bg-imgs/law.jpg");
    
 }
+
+
+@media screen and (max-width: 900px) {
+    .law {
+            background-position: 3rem 10rem, 25% 5%; 
+    }
+}
