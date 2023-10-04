@@ -36,6 +36,8 @@ import { EngineeringComponent } from './pages/students/engineering/engineering.c
 import { ScienceTechnologyComponent } from './pages/students/science-technology/science-technology.component';
 import { MusicComponent } from './pages/students/music/music.component';
 import { CookieConsentModule } from '../cookie-consent/cookie-consent.module';
+import { PopUpComponent } from './components/pop-up/pop-up.component';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient);
@@ -67,6 +69,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     EngineeringComponent,
     ScienceTechnologyComponent,
     MusicComponent,
+    PopUpComponent,
+    
    
   ],
   imports: [
@@ -77,6 +81,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
+    MatDialogModule,
     MatMenuModule,
     ReactiveFormsModule,
     HttpClientModule,

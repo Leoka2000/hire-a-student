@@ -46,7 +46,7 @@
           <p class="error-message">{{ 'contact.contact7' | translate }}</p>
         </div>
 
-        <textarea formControlName="message" [placeholder]="'contact.contact8' | translate"></textarea>
+        <textarea class="textarea" formControlName="message" [placeholder]="'contact.contact8' | translate"></textarea>
         <div
           *ngIf="registerForm.controls.message.invalid && (registerForm.controls.message.dirty || registerForm.controls.message.touched)">
           <p class="error-message">{{ 'contact.contact9' | translate }}</p>

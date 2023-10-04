@@ -1,0 +1,64 @@
+<mat-dialog-content>
+    <mat-toolbar id="font">
+        <mat-toolbar-row id="pop-up-header">
+
+        </mat-toolbar-row>
+
+        <span style="padding-bottom: 0.8rem;" class="title-pop-up"> Refer three friends to subscribe and get a free
+            mentorship on:</span>
+
+        <span class="pop-up-body">- How to make a CV</span>
+        <span class="pop-up-body">- How to make a cover letter</span>
+        <span class="pop-up-body">- Tips for job interviews</span>
+
+        
+
+        <form class="form-pop" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+            <h1 style="margin-top: 0.85rem;" class="pop-up-body">If this interests you, please, fill the form:</h1>
+            <input style="margin-top: 0.25rem;" type="text" [formControlName]="'yourName'" placeholder='Your name' />
+            <div
+                *ngIf="registerForm.controls.yourName.invalid && (registerForm.controls.yourName.dirty || registerForm.controls.yourName.touched)">
+                <p class="error-message">error</p>
+            </div>
+
+            <h2 style="margin-top: 0.85rem;">Friend's names</h2>
+            <input style="margin-top: 0.25rem;" type="text" [formControlName]="'friend1'" placeholder='Referred friend 1' />
+            <div
+                *ngIf="registerForm.controls.friend1.invalid && (registerForm.controls.friend1.dirty || registerForm.controls.friend1.touched)">
+                <p class="error-message">error</p>
+            </div>
+            <input style="margin-top: 0.25rem;" type="text" [formControlName]="'friend2'" placeholder='Referred friend 2' />
+            <div
+                *ngIf="registerForm.controls.friend2.invalid && (registerForm.controls.friend2.dirty || registerForm.controls.friend2.touched)">
+                <p class="error-message">error</p>
+            </div>
+            <input  style="margin-top: 0.25rem;" type="text" [formControlName]="'friend3'" placeholder='Referred friend 3' />
+            <div
+                *ngIf="registerForm.controls.friend3.invalid && (registerForm.controls.friend3.dirty || registerForm.controls.friend3.touched)">
+                <p class="error-message">error</p>
+            </div>
+            <h2 style="margin-top: 0.85rem;">Friend's emails</h2>
+            <input  style="margin-top: 0.25rem;" type="email" formControlName="email1" placeholder='Email of first friend 1' />
+            <div
+                *ngIf="registerForm.controls.email1.invalid && (registerForm.controls.email1.dirty || registerForm.controls.email1.touched)">
+                <p class="error-message">{{ 'contact.contact7' | translate }}</p>
+            </div>
+            <input  style="margin-top: 0.25rem;" type="email" formControlName="email2" placeholder='Email of first friend 2' />
+            <div
+                *ngIf="registerForm.controls.email2.invalid && (registerForm.controls.email2.dirty || registerForm.controls.email2.touched)">
+                <p class="error-message">{{ 'contact.contact7' | translate }}</p>
+            </div>
+            <input  style="margin-top: 0.25rem;" type="email" formControlName="email3" placeholder='Email of first friend 3' />
+            <div
+                *ngIf="registerForm.controls.email3.invalid && (registerForm.controls.email3.dirty || registerForm.controls.email3.touched)">
+                <p class="error-message">{{ 'contact.contact7' | translate }}</p>
+            </div>
+            <div class="contact-btn-wrapper">
+                <button type="submit">Submit referral</button>
+            </div>
+        </form>
+    </mat-toolbar>
+    <mat-dialog-actions>
+        <button mat-button (click)="close()">Close</button>
+    </mat-dialog-actions>
+</mat-dialog-content>

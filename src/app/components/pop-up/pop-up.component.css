@@ -1,0 +1,132 @@
+
+.title-pop-up{
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    text-align: center;
+    
+}
+mat-toolbar {
+    padding: 1.5rem 0.6rem 0 0.6rem;
+    color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.pop-up-btn {
+    color: #fff;
+  text-align: center;
+  margin-top: 1rem;
+  transform-style: preserve-3d;
+  background-color: #7f6aff;
+  border: 1px solid #7f6aff;
+  border-radius: 76px;
+  justify-content: center;
+  padding: 13px 23px;
+  max-width: 20rem;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.111em;
+  text-decoration: none;
+  transition: border-color .3s,background-color .3s,transform .3s,color .3s;
+}
+
+.form-pop {
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    margin-top: 1rem;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.form-pop > h2 {
+    font-weight: 900;
+
+    line-height: 1.8rem;
+}
+.form-pop > h1 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.form-pop > input {
+    min-height: 55px;
+  background-color: #0000;
+  border: 1px #e6e6e6;
+    border-bottom-width: 1px;
+    border-bottom-style: none;
+    border-bottom-color: rgb(230, 230, 230);
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  border-bottom: 2px solid #0c0c0c;
+    border-bottom-color: rgb(12, 12, 12);
+  border-bottom-color: #0c0c0c;
+  border-radius: 0;
+  margin-bottom: 0;
+  outline: none;
+  
+  font-size: 20px;
+  line-height: 1.1em;
+  transition: color .3s,border-color .3s;
+  border-bottom-color: #e6e6e6;
+  color: #eee;
+}
+.error-message {
+    color: red;
+    font-size: 1rem;
+}
+
+.contact-btn-wrapper > button {
+    color: #fff;
+    margin-top: 2rem;
+text-align: center;
+transform-style: preserve-3d;
+background-color: #7f6aff;
+border: 1px solid #7f6aff;
+border-radius: 76px;
+justify-content: center;
+cursor: pointer;
+padding: 16px 30px;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.111em;
+
+text-decoration: none;
+font-family: 'Space Grotesk', sans-serif;
+transition: border-color .3s, background-color .3s, transform .3s, color .3s;
+}
+.contact-btn-wrapper > button:hover {
+    color: #fff;
+    background-color: #7d42fb;
+    border-color: #7d42fb;
+    transform: translate3d(0, -3px, .01px);
+}
+@media screen and (max-width: 510px) {
+
+    .title-pop-up, .title-pop-up {
+        font-weight: 900;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .contact-btn-wrapper > button {
+        display: flex;
+        width: 100%;
+        font-size: 0.95rem;
+
+     }
+    .form-pop > h1 {
+        font-weight: 900;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .pop-up-body {
+        font-size: 1rem;
+    }
+    .form-pop > input {
+        font-size: 0.95rem;
+        min-height: 45px;
+    }
+    .error-message {
+        font-size: 0.95rem
+    }
+}
