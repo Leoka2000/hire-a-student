@@ -19,12 +19,16 @@ export class PopUpComponent {
 
   registerForm = this.fb.group({
     yourName: ['', [Validators.required, Validators.minLength(2)]],
+    email: ['', [Validators.required, Validators.email, Validators.pattern('^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$')]],
+     /*
     friend1: ['', [Validators.required, Validators.minLength(2)]],
+   
     friend2: ['', [Validators.required, Validators.minLength(2)]],
     friend3: ['', [Validators.required, Validators.minLength(2)]],
-    email1: ['', [Validators.required, Validators.email, Validators.pattern('^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$')]],
+    
     email2: ['', [Validators.required, Validators.email, Validators.pattern('^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$')]],
     email3: ['', [Validators.required, Validators.email, Validators.pattern('^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$')]],
+    */
   })
 
   constructor(
@@ -53,8 +57,8 @@ export class PopUpComponent {
     console.log('submitted form', this.registerForm.value);
     Swal.fire({
       icon: 'success',
-      title: 'Your message was successfuly sent :)',
-      text: 'Keep an eye on me in your email box'
+      title: 'Your request was sent :)',
+      text: 'Soon you will receive your referal code! Please, provide this code to the people you will refer. They should use it at the time of subscribing to the platform'
   }).then(() => {
   });
   }

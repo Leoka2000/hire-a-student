@@ -14,19 +14,18 @@
         
 
         <form class="form-pop" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-            <h1 style="margin-top: 0.85rem;" class="pop-up-body">If this interests you, please, fill the form:</h1>
+            <h1 style="margin-top: 0.85rem;" class="pop-up-body">Interested? Fill the form below :)</h1>
             <input style="margin-top: 0.25rem;" type="text" [formControlName]="'yourName'" placeholder='Your name' />
             <div
                 *ngIf="registerForm.controls.yourName.invalid && (registerForm.controls.yourName.dirty || registerForm.controls.yourName.touched)">
-                <p class="error-message">error</p>
+                <p class="error-message">Enter your name</p>
             </div>
-
-            <h2 style="margin-top: 0.85rem;">Friend's names</h2>
-            <input style="margin-top: 0.25rem;" type="text" [formControlName]="'friend1'" placeholder='Referred friend 1' />
+            <input style="margin-top: 0.25rem;" type="text" [formControlName]="'email'" placeholder='Your email' />
             <div
-                *ngIf="registerForm.controls.friend1.invalid && (registerForm.controls.friend1.dirty || registerForm.controls.friend1.touched)">
-                <p class="error-message">error</p>
+                *ngIf="registerForm.controls.email.invalid && (registerForm.controls.email.dirty || registerForm.controls.email.touched)">
+                <p class="error-message">Enter a valid email</p>
             </div>
+            <!-- 
             <input style="margin-top: 0.25rem;" type="text" [formControlName]="'friend2'" placeholder='Referred friend 2' />
             <div
                 *ngIf="registerForm.controls.friend2.invalid && (registerForm.controls.friend2.dirty || registerForm.controls.friend2.touched)">
@@ -53,6 +52,7 @@
                 *ngIf="registerForm.controls.email3.invalid && (registerForm.controls.email3.dirty || registerForm.controls.email3.touched)">
                 <p class="error-message">{{ 'contact.contact7' | translate }}</p>
             </div>
+             -->
             <div class="contact-btn-wrapper">
                 <button type="submit">Submit referral</button>
             </div>

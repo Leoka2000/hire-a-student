@@ -107,7 +107,7 @@ a {
 .dropdown-menu {
     overflow-y: scroll;
     overflow-x: scroll;
-    height: 25rem;
+    height: auto;
     width: auto;
     border: #535353 1px solid;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -161,6 +161,52 @@ li>a:hover {
 }
 
 .job-btn {
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transform-style: preserve-3d;
+    background-color: transparent;
+    font-family: 'Space Grotesk', sans-serif;
+    border-radius: 76px;
+    padding: 13px 28px;
+    cursor: pointer;
+    font-size: 14.5px;
+    line-height: 1.111em;
+    border: 1px solid #fff;
+    transition: border-color .3s, transform .3s, background-color .3s, color .3s;
+   /* color: #fff;
+    text-align: center;
+    transform-style: preserve-3d;
+    background-color: #7f6aff;
+    border: 1px solid #7f6aff;
+    border-radius: 76px;
+    justify-content: center;
+    padding: 13px 28px;
+    font-size: 14.5px;
+    font-weight: 700;
+    line-height: 1.111em;
+    text-decoration: none;
+    transition: border-color .3s, background-color .3s, transform .3s, color .3s;
+    */
+}
+
+
+#job-btn:hover {
+    color: #0c0c0c;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 2px 4px #0000004d,0 0 10px #fff3;
+    /*  
+    color: #fff;
+    background-color: #7d42fb;
+    border-color: #7d42fb;
+    box-shadow: 0 2px 4px #0000004d,0 0 10px #fff3;
+    */
+}
+
+
+
+.subscribe-btn {
     color: #fff;
     text-align: center;
     transform-style: preserve-3d;
@@ -176,36 +222,10 @@ li>a:hover {
     transition: border-color .3s, background-color .3s, transform .3s, color .3s;
 }
 
-
-#job-btn:hover {
+#subscribe-btn:hover {
     color: #fff;
     background-color: #7d42fb;
     border-color: #7d42fb;
-    box-shadow: 0 2px 4px #0000004d,0 0 10px #fff3;
-}
-
-
-
-.subscribe-btn {
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
-    transform-style: preserve-3d;
-    background-color: transparent;
-    font-family: 'Space Grotesk', sans-serif;
-    border-radius: 76px;
-    padding: 13px 28px;
-    cursor: pointer;
-    font-size: 14.5px;
-    line-height: 1.111em;
-    border: 1px solid #fff;
-    transition: border-color .3s, transform .3s, background-color .3s, color .3s;
-}
-
-#subscribe-btn:hover {
-    color: #0c0c0c;
-    background-color: #fff;
-    border-color: #fff;
     box-shadow: 0 2px 4px #0000004d,0 0 10px #fff3;
 
 }
