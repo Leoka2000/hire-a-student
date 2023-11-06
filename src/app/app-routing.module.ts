@@ -20,6 +20,7 @@ import { PharmacyComponent } from './pages/students/pharmacy/pharmacy.component'
 import { EngineeringComponent } from './pages/students/engineering/engineering.component';
 import { ScienceTechnologyComponent } from './pages/students/science-technology/science-technology.component';
 import { MusicComponent } from './pages/students/music/music.component';
+import { AllComponent } from './pages/students/all/all.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,7 @@ const routes: Routes = [
   {path:'contact', component: ContactComponent},
   {path: 'job-positions', component: JobPositionsComponent},
   {path: 'make-job-post', component: MakeJobPostComponent},
+  {path: 'students/all', component: AllComponent},
   {path: 'students/law', component: LawComponent},
   {path: 'students/health-care', component: MedicalSciencesComponent}, 
   {path: 'students/human-sciences', component: HumanSciencesComponent}, 

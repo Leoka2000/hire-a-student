@@ -38,6 +38,7 @@ import { MusicComponent } from './pages/students/music/music.component';
 import { CookieConsentModule } from '../cookie-consent/cookie-consent.module';
 import { PopUpComponent } from './components/pop-up/pop-up.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { AllComponent } from './pages/students/all/all.component';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient);
@@ -70,6 +71,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     ScienceTechnologyComponent,
     MusicComponent,
     PopUpComponent,
+    AllComponent,
     
    
   ],
