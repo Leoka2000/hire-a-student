@@ -40,6 +40,9 @@ import { PopUpComponent } from './components/pop-up/pop-up.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { AllComponent } from './pages/students/all/all.component';
 
+import { environment } from 'src/environments/environment';
+
+
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient);
 }
